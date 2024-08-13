@@ -4,7 +4,7 @@
 
 # Project Title
 
-![Dashboard Preview](URL_to_your_image)
+![Dashboard Preview]()
 
 ## Power BI Report
 You can view the interactive Power BI report by clicking the link below:
