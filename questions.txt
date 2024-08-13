@@ -1,0 +1,39 @@
+
+# SQL Business Questions
+
+## Basic Questions
+1. Retrieve the list of all customers with their respective income levels.
+2. Find the total number of transactions recorded for each store.
+3. List all products along with their category and subcategory.
+4. Retrieve all sales transactions that occurred in 2021.
+5. Find the top 5 most expensive products based on retail price.
+6. Display all stores along with their store manager names and locations.
+7. Count the number of unique customers who made purchases in 2022.
+8. Retrieve the total sales for each product category.
+9. List all transactions that involved a discount.
+10. Find all customers who are part of the loyalty program.
+
+## Intermediate Questions
+1. Find the total sales amount for each store for the year 2021.
+2. List the top 10 customers based on their total purchase amount.
+3. Retrieve the sales target and actual sales for each store and month in 2020.
+4. Find the average purchase frequency for customers by income level.
+5. List the top 5 products by total sales amount in 2021.
+6. Retrieve the total sales amount for each day of the week.
+7. Identify the store that achieved the highest sales target in 2020.
+8. Calculate the average discount given per transaction in 2022.
+9. Find the most popular payment method used by customers.
+10. List the total sales and sales targets for each quarter of 2021.
+
+## Advanced Questions
+1. Calculate the year-over-year growth in total sales for each store.
+2. Find the customers who have made purchases in more than one store.
+3. Identify the products that have never been sold at a discount.
+4. Calculate the percentage of total sales that occurred on weekends.
+5. Find the store that has the highest average transaction value.
+6. Retrieve the list of customers who have purchased products from every category.
+7. Identify the month with the highest sales for each store in 2021.
+8. Calculate the cumulative sales for each product category over time.
+9. Find the most frequently purchased product in each store.
+10. Identify the customers who have not made a purchase in the last 6 months.
+

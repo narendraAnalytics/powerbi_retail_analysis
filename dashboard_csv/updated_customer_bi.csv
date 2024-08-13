@@ -1,0 +1,681 @@
+Customer ID,Age,Gender,Name,Income Level,Location,Loyalty Program,Purchase Frequency,Mail ID,Age Group,Loyalty Indicator,Income Level Indicator,Customer Segment
+C001,82,Male,Becky Ellison,"100,000+",Mumbai,No,Low,isalazar@example.org,80+,0,5,Premium Low
+C002,55,Female,Sara Smith,"<25,000",Ahmedabad,Yes,High,russocaroline@example.net,50-59,1,1,Economy
+C003,62,Female,Angela Hernandez,"50,000-74,999",Kolkata,Yes,Medium,burtoncurtis@example.net,60-69,1,3,Middle Class
+C004,43,Male,Julie Jenkins,"75,000-99,999",Hyderabad,No,High,peteracosta@example.org,40-49,0,4,Premium High
+C005,42,Female,Dustin Davidson,"75,000-99,999",Lucknow,Yes,High,nancylindsey@example.org,40-49,1,4,Premium High
+C006,79,Female,Mark Ryan,"<25,000",Bangalore,No,Medium,phillipsmelissa@example.org,70-79,0,1,Economy
+C007,24,Female,Alice Torres,"<25,000",Pune,Yes,High,gonzalezdavid@example.org,20-29,1,1,Economy
+C008,72,Male,Danielle Smith,"25,000-49,999",Delhi,No,Low,aaronjohnson@example.com,70-79,0,2,Economy
+C009,56,Female,Linda Navarro,"100,000+",Jaipur,No,Medium,matthew80@example.net,50-59,0,5,Premium Medium
+C0010,24,Male,Christopher Wiggins,"100,000+",Hyderabad,No,Medium,lanederrick@example.com,20-29,0,5,Premium Medium
+C0011,76,Male,Robert Powell,"<25,000",Lucknow,No,High,dunnbrian@example.org,70-79,0,1,Economy
+C0012,55,Female,Lawrence Wilkinson,"75,000-99,999",Bangalore,No,Medium,weissjeff@example.net,50-59,0,4,Premium Medium
+C0013,76,Male,Matthew Brooks,"75,000-99,999",Kanpur,No,Medium,mdavenport@example.com,70-79,0,4,Premium Medium
+C0014,27,Male,James Phillips,"50,000-74,999",Ahmedabad,No,High,xmeyers@example.com,20-29,0,3,Middle Class
+C0015,84,Male,Kayla Sheppard,"50,000-74,999",Kanpur,No,High,williamsdevin@example.com,80+,0,3,Middle Class
+C0016,74,Female,Olivia Reilly,"<25,000",Jaipur,No,High,rsantiago@example.com,70-79,0,1,Economy
+C0017,25,Female,Rebecca Burke,"100,000+",Kanpur,Yes,High,tracy07@example.net,20-29,1,5,Premium High
+C0018,52,Male,Grace Thompson,"75,000-99,999",Jaipur,Yes,Low,wanda25@example.org,50-59,1,4,Premium Low
+C0019,54,Female,Debbie Fletcher,"75,000-99,999",Bangalore,Yes,Low,richardtran@example.net,50-59,1,4,Premium Low
+C0020,41,Male,Jennifer Wilkins,"<25,000",Lucknow,Yes,Medium,dalton46@example.org,40-49,1,1,Economy
+C0021,67,Male,Paul Terrell,"75,000-99,999",Delhi,Yes,Low,jmitchell@example.org,60-69,1,4,Premium Low
+C0022,25,Female,Timothy Mann,"<25,000",Ahmedabad,Yes,High,troy32@example.org,20-29,1,1,Economy
+C0023,58,Male,Jacqueline Walton,"<25,000",Hyderabad,Yes,Low,michaelruiz@example.com,50-59,1,1,Economy
+C0024,31,Female,Patricia Leon,"75,000-99,999",Bangalore,Yes,Medium,samuel86@example.net,30-39,1,4,Premium Medium
+C0025,48,Female,Angela White,"100,000+",Delhi,No,High,greenecatherine@example.org,40-49,0,5,Premium High
+C0026,47,Female,Karen Gilmore,"25,000-49,999",Hyderabad,No,High,ihernandez@example.com,40-49,0,2,Economy
+C0027,37,Male,Jennifer Richardson,"75,000-99,999",Jaipur,Yes,Low,karen02@example.org,30-39,1,4,Premium Low
+C0028,22,Male,Shelley Marks,"100,000+",Jaipur,Yes,High,michael34@example.org,20-29,1,5,Premium High
+C0029,33,Female,Amy Hood DDS,"75,000-99,999",Bangalore,Yes,High,khoward@example.net,30-39,1,4,Premium High
+C0030,22,Male,Christopher Brown,"25,000-49,999",Hyderabad,Yes,High,danielbush@example.com,20-29,1,2,Economy
+C0031,44,Male,David Patterson,"75,000-99,999",Pune,Yes,High,antonio42@example.net,40-49,1,4,Premium High
+C0032,51,Male,Robert Sullivan,"50,000-74,999",Delhi,Yes,Low,sheri46@example.org,50-59,1,3,Middle Class
+C0033,39,Female,Jon Brown,"50,000-74,999",Surat,Yes,Medium,darren98@example.org,30-39,1,3,Middle Class
+C0034,67,Male,Jennifer Knight,"75,000-99,999",Mumbai,No,Low,richard23@example.org,60-69,0,4,Premium Low
+C0035,57,Female,Anthony Tran,"50,000-74,999",Pune,Yes,Low,dzimmerman@example.com,50-59,1,3,Middle Class
+C0036,73,Female,David Phelps,"50,000-74,999",Kolkata,No,Medium,amy58@example.com,70-79,0,3,Middle Class
+C0037,67,Male,Amanda Gutierrez,"100,000+",Ahmedabad,Yes,Low,castillojenny@example.org,60-69,1,5,Premium Low
+C0038,38,Male,Lisa Williams,"25,000-49,999",Chennai,No,Low,ericksonryan@example.org,30-39,0,2,Economy
+C0039,26,Male,Justin Charles,"50,000-74,999",Mumbai,Yes,Low,fabbott@example.com,20-29,1,3,Middle Class
+C0040,63,Male,Tiffany Johnson,"25,000-49,999",Pune,No,High,mharrison@example.net,60-69,0,2,Economy
+C0041,82,Female,Steven Bailey,"<25,000",Ahmedabad,No,Medium,gabriellesmall@example.com,80+,0,1,Economy
+C0042,26,Male,Shelly Williams,"75,000-99,999",Ahmedabad,No,High,kimberlyriggs@example.net,20-29,0,4,Premium High
+C0043,35,Female,Jason Buckley,"50,000-74,999",Bangalore,No,Low,davidwilliams@example.com,30-39,0,3,Middle Class
+C0044,54,Male,Eduardo Brock,"50,000-74,999",Bangalore,Yes,High,christopherryan@example.org,50-59,1,3,Middle Class
+C0045,35,Female,Jason Wagner,"50,000-74,999",Chennai,Yes,Low,clintonhebert@example.org,30-39,1,3,Middle Class
+C0046,35,Female,Lisa Hansen,"100,000+",Bangalore,No,High,nfreeman@example.net,30-39,0,5,Premium High
+C0047,54,Male,Jean Johnson,"25,000-49,999",Jaipur,Yes,High,edwinryan@example.com,50-59,1,2,Economy
+C0048,34,Female,Jacqueline Davis,"75,000-99,999",Kolkata,No,High,brian61@example.org,30-39,0,4,Premium High
+C0049,81,Male,Julia Roberts,"25,000-49,999",Pune,No,Medium,andreagomez@example.com,80+,0,2,Economy
+C0050,65,Male,Michelle Dixon,"25,000-49,999",Mumbai,Yes,Medium,emason@example.com,60-69,1,2,Economy
+C0051,66,Male,Courtney Maddox,"<25,000",Delhi,Yes,Low,brennansuzanne@example.net,60-69,1,1,Economy
+C0052,39,Male,Anthony Cooper,"100,000+",Kolkata,Yes,Low,burchcesar@example.com,30-39,1,5,Premium Low
+C0053,24,Male,Penny Knight,"100,000+",Jaipur,Yes,High,whitneykyle@example.org,20-29,1,5,Premium High
+C0054,24,Male,Meagan Perez,"75,000-99,999",Delhi,No,High,umccarty@example.net,20-29,0,4,Premium High
+C0055,39,Female,Matthew Jones,"25,000-49,999",Delhi,Yes,High,pandrade@example.com,30-39,1,2,Economy
+C0056,57,Male,Julie Salinas,"50,000-74,999",Jaipur,Yes,Medium,castillojoseph@example.com,50-59,1,3,Middle Class
+C0057,70,Male,William Ritter,"75,000-99,999",Kolkata,No,Medium,edward71@example.org,70-79,0,4,Premium Medium
+C0058,61,Male,Nicole Ray,"100,000+",Kanpur,Yes,Medium,lisamaynard@example.net,60-69,1,5,Premium Medium
+C0059,22,Female,Sherri Valenzuela,"75,000-99,999",Ahmedabad,Yes,Medium,madison12@example.net,20-29,1,4,Premium Medium
+C0060,36,Female,Robert Mosley,"75,000-99,999",Hyderabad,Yes,High,ricky54@example.net,30-39,1,4,Premium High
+C0061,50,Female,Sierra Heath,"75,000-99,999",Surat,No,Low,christiantheresa@example.org,50-59,0,4,Premium Low
+C0062,72,Female,Courtney Torres,"100,000+",Ahmedabad,Yes,High,xhicks@example.net,70-79,1,5,Premium High
+C0063,84,Female,Teresa Tyler,"100,000+",Jaipur,Yes,Low,villegaskristopher@example.com,80+,1,5,Premium Low
+C0064,47,Male,Joshua Mack,"50,000-74,999",Ahmedabad,Yes,Medium,emilysanchez@example.com,40-49,1,3,Middle Class
+C0065,30,Female,Holly Wiggins,"75,000-99,999",Chennai,Yes,High,alexander75@example.org,30-39,1,4,Premium High
+C0066,27,Male,Matthew Craig,"25,000-49,999",Surat,Yes,Medium,hornnicole@example.com,20-29,1,2,Economy
+C0067,62,Male,Zachary Turner,"<25,000",Bangalore,Yes,Low,johnsonrichard@example.net,60-69,1,1,Economy
+C0068,74,Female,Reginald Harvey,"<25,000",Kanpur,Yes,Medium,jessicamcdaniel@example.org,70-79,1,1,Economy
+C0069,29,Female,Brad Kelley,"75,000-99,999",Pune,Yes,Low,ocarr@example.com,20-29,1,4,Premium Low
+C0070,36,Female,Phillip Freeman,"50,000-74,999",Ahmedabad,Yes,High,kellyjane@example.org,30-39,1,3,Middle Class
+C0071,54,Male,Mr. Michael Webb,"75,000-99,999",Kanpur,Yes,High,christopher62@example.com,50-59,1,4,Premium High
+C0072,32,Male,Melissa Marsh,"75,000-99,999",Jaipur,Yes,Low,hbarnett@example.org,30-39,1,4,Premium Low
+C0073,39,Female,Terri Ibarra,"75,000-99,999",Bangalore,Yes,Medium,johnsondale@example.com,30-39,1,4,Premium Medium
+C0074,40,Male,Shannon Douglas,"<25,000",Kanpur,Yes,Medium,preston06@example.org,40-49,1,1,Economy
+C0075,68,Female,Mark Hill,"75,000-99,999",Hyderabad,Yes,High,waltonsandra@example.org,60-69,1,4,Premium High
+C0076,71,Female,Jasmine Thomas,"100,000+",Mumbai,Yes,High,nicole61@example.org,70-79,1,5,Premium High
+C0077,71,Male,Julie Richards,"100,000+",Bangalore,No,Medium,seanchambers@example.com,70-79,0,5,Premium Medium
+C0078,78,Female,Michelle Burns,"50,000-74,999",Ahmedabad,No,Low,tonya75@example.org,70-79,0,3,Middle Class
+C0079,43,Female,Katherine Marshall,"75,000-99,999",Jaipur,Yes,Medium,jbennett@example.net,40-49,1,4,Premium Medium
+C0080,69,Male,Michael Wagner,"25,000-49,999",Chennai,No,Low,qstanley@example.net,60-69,0,2,Economy
+C0081,27,Female,Jeffrey Orr,"75,000-99,999",Mumbai,No,Low,qblair@example.net,20-29,0,4,Premium Low
+C0082,45,Male,Angela Little,"100,000+",Pune,No,Medium,ericawagner@example.org,40-49,0,5,Premium Medium
+C0083,53,Female,Eric Johnson,"<25,000",Kanpur,No,Medium,benjaminshields@example.net,50-59,0,1,Economy
+C0084,36,Male,Haley Robertson,"75,000-99,999",Chennai,No,Medium,shannonclay@example.com,30-39,0,4,Premium Medium
+C0085,67,Male,Richard Smith,"25,000-49,999",Chennai,Yes,High,davidsmith@example.net,60-69,1,2,Economy
+C0086,79,Female,Tracy Lee DVM,"50,000-74,999",Jaipur,No,Low,brooke78@example.com,70-79,0,3,Middle Class
+C0087,25,Female,Travis Weber,"75,000-99,999",Hyderabad,Yes,High,etorres@example.org,20-29,1,4,Premium High
+C0088,51,Male,Debra Shelton,"50,000-74,999",Pune,No,Medium,teresadonaldson@example.net,50-59,0,3,Middle Class
+C0089,76,Female,Matthew Reeves,"75,000-99,999",Chennai,No,Low,cookhannah@example.org,70-79,0,4,Premium Low
+C0090,56,Female,Martin Sanchez,"75,000-99,999",Lucknow,Yes,Low,andrew71@example.org,50-59,1,4,Premium Low
+C0091,81,Male,Alexandra Turner,"50,000-74,999",Pune,No,Low,jeffreyestrada@example.com,80+,0,3,Middle Class
+C0092,55,Female,Sarah Rodriguez,"<25,000",Bangalore,Yes,Medium,david58@example.org,50-59,1,1,Economy
+C0093,29,Male,Jaime Rowland,"50,000-74,999",Surat,No,Low,john89@example.net,20-29,0,3,Middle Class
+C0094,39,Female,Daniel Owens,"75,000-99,999",Chennai,Yes,Low,marialewis@example.com,30-39,1,4,Premium Low
+C0095,49,Female,Brittany Hughes,"25,000-49,999",Kanpur,No,Low,piercecole@example.net,40-49,0,2,Economy
+C0096,81,Female,Martin Stevens,"75,000-99,999",Delhi,Yes,Medium,jonesrachel@example.org,80+,1,4,Premium Medium
+C0097,39,Male,Brett Lozano,"25,000-49,999",Bangalore,No,Low,elizabethsimmons@example.org,30-39,0,2,Economy
+C0098,78,Female,Rachel Reyes,"<25,000",Pune,Yes,Low,salazarjoseph@example.com,70-79,1,1,Economy
+C0099,23,Male,Keith Maddox,"<25,000",Bangalore,No,High,lopezryan@example.org,20-29,0,1,Economy
+C00100,68,Male,Lisa Hernandez,"50,000-74,999",Hyderabad,Yes,Medium,michaelruiz@example.com,60-69,1,3,Middle Class
+C00101,47,Male,Marie Watts,"50,000-74,999",Ahmedabad,No,Medium,kimberlyklein@example.net,40-49,0,3,Middle Class
+C00102,82,Male,Mary Mills,"50,000-74,999",Jaipur,Yes,Medium,raymond80@example.com,80+,1,3,Middle Class
+C00103,52,Male,Catherine Green,"25,000-49,999",Ahmedabad,Yes,Low,ryanstephanie@example.org,50-59,1,2,Economy
+C00104,22,Male,Omar Bradshaw,"75,000-99,999",Bangalore,Yes,Low,anna98@example.com,20-29,1,4,Premium Low
+C00105,79,Female,Victor Logan,"50,000-74,999",Lucknow,No,High,hoganjennifer@example.com,70-79,0,3,Middle Class
+C00106,51,Female,Jeffrey Miller,"<25,000",Lucknow,No,High,kevin90@example.com,50-59,0,1,Economy
+C00107,57,Male,Cody Long,"25,000-49,999",Mumbai,No,High,scottsanchez@example.org,50-59,0,2,Economy
+C00108,51,Male,Rachael Dickson,"100,000+",Mumbai,Yes,Low,bettycox@example.com,50-59,1,5,Premium Low
+C00109,31,Male,Martha Stone,"100,000+",Kanpur,Yes,High,shannonwong@example.org,30-39,1,5,Premium High
+C00110,69,Male,Mark Hunt,"75,000-99,999",Ahmedabad,Yes,Medium,beth38@example.com,60-69,1,4,Premium Medium
+C00111,74,Female,Steve Pena,"100,000+",Kolkata,Yes,High,mrowe@example.net,70-79,1,5,Premium High
+C00112,44,Female,Samuel Trevino,"100,000+",Kolkata,Yes,High,benjamin62@example.org,40-49,1,5,Premium High
+C00113,48,Male,Jasmine Chang,"25,000-49,999",Hyderabad,No,Medium,anthony59@example.com,40-49,0,2,Economy
+C00114,33,Female,Laurie Brown,"75,000-99,999",Kanpur,No,High,melanie40@example.org,30-39,0,4,Premium High
+C00115,48,Male,Amanda Davis,"<25,000",Mumbai,No,Medium,whitneywashington@example.org,40-49,0,1,Economy
+C00116,81,Female,Colin Myers,"50,000-74,999",Hyderabad,No,High,srobinson@example.org,80+,0,3,Middle Class
+C00117,62,Female,Ashley Jones,"100,000+",Pune,Yes,Medium,robert05@example.net,60-69,1,5,Premium Medium
+C00118,27,Female,Neil Johnson,"25,000-49,999",Jaipur,No,Medium,carriegarcia@example.net,20-29,0,2,Economy
+C00119,26,Male,Jonathan Wyatt,"75,000-99,999",Hyderabad,Yes,High,charlotte13@example.org,20-29,1,4,Premium High
+C00120,33,Male,Christian Kennedy,"100,000+",Mumbai,Yes,Medium,dperkins@example.org,30-39,1,5,Premium Medium
+C00121,38,Male,Rachel Brown,"25,000-49,999",Kolkata,Yes,High,hwilliams@example.net,30-39,1,2,Economy
+C00122,61,Male,Andrew Wright,"75,000-99,999",Lucknow,Yes,High,esmith@example.com,60-69,1,4,Premium High
+C00123,82,Female,Debra Garcia,"75,000-99,999",Hyderabad,Yes,High,halvarez@example.com,80+,1,4,Premium High
+C00124,34,Male,Mathew Bass,"<25,000",Chennai,No,High,mayobenjamin@example.net,30-39,0,1,Economy
+C00125,64,Female,Jack Ford,"50,000-74,999",Delhi,Yes,Low,davidlivingston@example.net,60-69,1,3,Middle Class
+C00126,48,Female,Jennifer Clark,"50,000-74,999",Bangalore,Yes,Medium,nkim@example.com,40-49,1,3,Middle Class
+C00127,49,Male,Laura Ramos,"100,000+",Kolkata,No,Medium,whensley@example.com,40-49,0,5,Premium Medium
+C00128,21,Female,Jerome Daniels,"25,000-49,999",Bangalore,No,Low,uward@example.net,20-29,0,2,Economy
+C00129,41,Male,Angel Jones,"100,000+",Ahmedabad,No,Medium,pguerra@example.com,40-49,0,5,Premium Medium
+C00130,24,Female,Austin Moss,"100,000+",Kolkata,No,Medium,amyreid@example.com,20-29,0,5,Premium Medium
+C00131,54,Female,Brian Rogers,"75,000-99,999",Surat,No,Low,hklein@example.com,50-59,0,4,Premium Low
+C00132,78,Male,Ronald Gallegos,"100,000+",Bangalore,Yes,High,mary85@example.com,70-79,1,5,Premium High
+C00133,39,Male,David Evans,"50,000-74,999",Kanpur,No,Low,brownmichael@example.org,30-39,0,3,Middle Class
+C00134,82,Female,Joseph Horn,"50,000-74,999",Mumbai,Yes,High,ycochran@example.net,80+,1,3,Middle Class
+C00135,52,Female,Danny Ellis,"100,000+",Chennai,No,High,sbowers@example.org,50-59,0,5,Premium High
+C00136,70,Male,Paige Ritter,"50,000-74,999",Mumbai,No,High,jasmine26@example.net,70-79,0,3,Middle Class
+C00137,28,Female,Alan Sanchez,"75,000-99,999",Jaipur,Yes,High,williamsullivan@example.net,20-29,1,4,Premium High
+C00138,66,Male,Mr. Steven Simon,"100,000+",Jaipur,Yes,High,isaac42@example.org,60-69,1,5,Premium High
+C00139,61,Male,George Adams,"<25,000",Kolkata,Yes,Medium,margaret91@example.org,60-69,1,1,Economy
+C00140,37,Male,Billy Pacheco,"25,000-49,999",Mumbai,No,Medium,james13@example.org,30-39,0,2,Economy
+C00141,22,Male,Autumn White,"75,000-99,999",Pune,Yes,Low,destinygarner@example.net,20-29,1,4,Premium Low
+C00142,64,Female,Maria Stout,"100,000+",Jaipur,Yes,Low,lkelly@example.com,60-69,1,5,Premium Low
+C00143,53,Female,Casey Smith,"100,000+",Hyderabad,Yes,High,whitemark@example.net,50-59,1,5,Premium High
+C00144,51,Female,Sherry Gray,"25,000-49,999",Mumbai,No,Medium,kgoodwin@example.net,50-59,0,2,Economy
+C00145,38,Male,Rick Owens,"50,000-74,999",Chennai,No,Medium,kenneth10@example.com,30-39,0,3,Middle Class
+C00146,33,Male,Kenneth Moran,"50,000-74,999",Surat,Yes,High,johnsonheather@example.com,30-39,1,3,Middle Class
+C00147,64,Male,Tonya Lawson,"75,000-99,999",Ahmedabad,Yes,Medium,hammondterri@example.org,60-69,1,4,Premium Medium
+C00148,56,Male,Alexis Mcpherson,"50,000-74,999",Mumbai,Yes,Medium,juanfox@example.org,50-59,1,3,Middle Class
+C00149,64,Male,Jeffrey Santos,"<25,000",Pune,Yes,High,hroberson@example.com,60-69,1,1,Economy
+C00150,42,Male,Lindsey Spencer,"25,000-49,999",Bangalore,No,Medium,samanthacraig@example.net,40-49,0,2,Economy
+C00151,53,Male,Jessica Torres,"25,000-49,999",Kanpur,No,Low,robin49@example.com,50-59,0,2,Economy
+C00152,42,Male,Jessica Collins,"25,000-49,999",Surat,No,Low,kevin57@example.com,40-49,0,2,Economy
+C00153,60,Female,Leon Hunt,"25,000-49,999",Ahmedabad,No,Low,ghanson@example.org,60-69,0,2,Economy
+C00154,25,Male,Andres Frank,"50,000-74,999",Mumbai,Yes,High,jacksonwilliam@example.com,20-29,1,3,Middle Class
+C00155,50,Female,Jason Benson,"25,000-49,999",Mumbai,No,High,ryanhall@example.com,50-59,0,2,Economy
+C00156,36,Male,John Garner,"25,000-49,999",Chennai,Yes,Medium,laurie78@example.net,30-39,1,2,Economy
+C00157,52,Male,Jonathan Riley,"25,000-49,999",Delhi,Yes,Low,danielle01@example.net,50-59,1,2,Economy
+C00158,34,Male,Hunter Jackson,"<25,000",Hyderabad,No,Medium,manuelfox@example.org,30-39,0,1,Economy
+C00159,45,Female,Ashley Williams,"75,000-99,999",Jaipur,Yes,High,daviskelly@example.org,40-49,1,4,Premium High
+C00160,32,Female,Debra Robinson,"25,000-49,999",Chennai,Yes,High,vwebb@example.net,30-39,1,2,Economy
+C00161,66,Male,Virginia Summers,"75,000-99,999",Kolkata,Yes,Low,dnguyen@example.com,60-69,1,4,Premium Low
+C00162,49,Female,Cynthia Berry,"<25,000",Pune,No,Low,cooperann@example.org,40-49,0,1,Economy
+C00163,65,Female,Rhonda Palmer,"25,000-49,999",Ahmedabad,Yes,High,patricia37@example.com,60-69,1,2,Economy
+C00164,26,Female,Cathy Perez,"<25,000",Kanpur,No,Low,emilyferguson@example.org,20-29,0,1,Economy
+C00165,39,Female,Steven Wheeler,"25,000-49,999",Ahmedabad,Yes,High,courtneyshields@example.net,30-39,1,2,Economy
+C00166,40,Male,Sandra Stewart,"<25,000",Kanpur,No,High,mariagonzalez@example.net,40-49,0,1,Economy
+C00167,31,Male,Angel Collins,"100,000+",Ahmedabad,No,Medium,diane86@example.com,30-39,0,5,Premium Medium
+C00168,47,Female,Stephanie Williams,"<25,000",Hyderabad,No,Medium,vincentchristopher@example.net,40-49,0,1,Economy
+C00169,80,Male,Joe Myers,"25,000-49,999",Ahmedabad,No,High,ryan76@example.com,80+,0,2,Economy
+C00170,22,Female,Steven Pierce,"<25,000",Surat,Yes,High,tsanchez@example.com,20-29,1,1,Economy
+C00171,27,Male,Raymond Roberson,"100,000+",Lucknow,No,Low,smithstacy@example.org,20-29,0,5,Premium Low
+C00172,55,Female,Tyler Combs,"75,000-99,999",Chennai,No,Low,erica72@example.org,50-59,0,4,Premium Low
+C00173,62,Male,Andre Steele,"<25,000",Bangalore,Yes,Low,davidlewis@example.net,60-69,1,1,Economy
+C00174,50,Male,Matthew Warren,"75,000-99,999",Lucknow,Yes,High,fbentley@example.com,50-59,1,4,Premium High
+C00175,58,Male,Grant Howell,"50,000-74,999",Ahmedabad,No,Medium,joesanchez@example.com,50-59,0,3,Middle Class
+C00176,24,Male,Michael Castillo,"75,000-99,999",Kolkata,No,Medium,ocarlson@example.com,20-29,0,4,Premium Medium
+C00177,79,Male,Sean Nguyen,"50,000-74,999",Ahmedabad,No,Medium,scottberger@example.net,70-79,0,3,Middle Class
+C00178,23,Female,Alan Holloway,"100,000+",Kolkata,Yes,High,harrisonlance@example.org,20-29,1,5,Premium High
+C00179,50,Female,Mike Moore,"<25,000",Mumbai,No,Medium,lopezkeith@example.net,50-59,0,1,Economy
+C00180,81,Female,Mark Bates,"25,000-49,999",Pune,No,High,kimberlywhite@example.com,80+,0,2,Economy
+C00181,22,Male,Ryan Vargas,"<25,000",Lucknow,Yes,Low,hrandolph@example.org,20-29,1,1,Economy
+C00182,71,Male,Melissa Marquez,"75,000-99,999",Pune,No,Low,heatherskinner@example.com,70-79,0,4,Premium Low
+C00183,56,Female,Charles Moss,"50,000-74,999",Mumbai,No,Medium,grace67@example.net,50-59,0,3,Middle Class
+C00184,52,Female,Dillon Peters,"75,000-99,999",Ahmedabad,No,Low,foxalexander@example.net,50-59,0,4,Premium Low
+C00185,21,Male,Richard Velasquez,"100,000+",Kanpur,No,High,thomasheather@example.com,20-29,0,5,Premium High
+C00186,45,Male,Wayne Sanchez,"50,000-74,999",Chennai,Yes,Medium,kdiaz@example.com,40-49,1,3,Middle Class
+C00187,48,Male,Todd Spencer,"75,000-99,999",Kolkata,Yes,High,golson@example.com,40-49,1,4,Premium High
+C00188,76,Male,Jordan Allen,"100,000+",Delhi,Yes,Low,uroy@example.net,70-79,1,5,Premium Low
+C00189,79,Female,Robert Tran,"50,000-74,999",Hyderabad,Yes,Low,murillojennifer@example.com,70-79,1,3,Middle Class
+C00190,25,Male,Melanie Adams,"50,000-74,999",Delhi,Yes,Medium,julie56@example.org,20-29,1,3,Middle Class
+C00191,63,Male,Emma Mcmahon,"100,000+",Pune,Yes,Medium,jerrymartinez@example.net,60-69,1,5,Premium Medium
+C00192,71,Male,Shannon Ramirez,"100,000+",Surat,Yes,High,bjohnson@example.net,70-79,1,5,Premium High
+C00193,24,Male,Vickie Hill,"50,000-74,999",Chennai,Yes,High,karenayala@example.net,20-29,1,3,Middle Class
+C00194,64,Male,Dale Buchanan,"75,000-99,999",Lucknow,Yes,High,nataliegarza@example.net,60-69,1,4,Premium High
+C00195,38,Female,Douglas Martin,"75,000-99,999",Hyderabad,Yes,High,estradajohn@example.org,30-39,1,4,Premium High
+C00196,77,Female,Victor Tapia,"25,000-49,999",Lucknow,No,Medium,juanrivera@example.com,70-79,0,2,Economy
+C00197,47,Female,Jessica Lee,"100,000+",Surat,Yes,Medium,coopermichael@example.com,40-49,1,5,Premium Medium
+C00198,39,Male,Ralph Higgins,"25,000-49,999",Pune,Yes,Low,usmith@example.org,30-39,1,2,Economy
+C00199,59,Male,Juan Owens,"100,000+",Jaipur,Yes,Low,michaelcarpenter@example.net,50-59,1,5,Premium Low
+C00200,45,Female,Angela Robinson,"25,000-49,999",Surat,No,Low,kristinarios@example.org,40-49,0,2,Economy
+C00201,55,Male,Phillip Stanton,"100,000+",Lucknow,No,Low,freemanjames@example.org,50-59,0,5,Premium Low
+C00202,77,Male,Mrs. Jean Barnett,"25,000-49,999",Kanpur,No,Low,xfranco@example.net,70-79,0,2,Economy
+C00203,47,Male,Douglas King,"<25,000",Pune,No,High,hyoung@example.net,40-49,0,1,Economy
+C00204,64,Female,Stanley Wu,"25,000-49,999",Kolkata,Yes,Medium,xreed@example.net,60-69,1,2,Economy
+C00205,23,Male,Matthew Jenkins,"25,000-49,999",Hyderabad,Yes,Low,brian81@example.com,20-29,1,2,Economy
+C00206,78,Male,Rachel Coleman,"<25,000",Chennai,No,High,andrewthompson@example.net,70-79,0,1,Economy
+C00207,25,Male,Lynn Gibson,"75,000-99,999",Pune,No,Medium,jorgebutler@example.net,20-29,0,4,Premium Medium
+C00208,62,Female,Alicia Compton,"50,000-74,999",Surat,No,High,hicksmatthew@example.net,60-69,0,3,Middle Class
+C00209,63,Male,David Pratt,"100,000+",Pune,Yes,Low,tdonovan@example.net,60-69,1,5,Premium Low
+C00210,80,Female,Erica Williams,"25,000-49,999",Kolkata,Yes,High,lperez@example.org,80+,1,2,Economy
+C00211,77,Female,Lindsay Brandt,"100,000+",Bangalore,No,Low,nthompson@example.com,70-79,0,5,Premium Low
+C00212,53,Female,Lonnie Roberts,"50,000-74,999",Kolkata,No,Medium,meadowstiffany@example.net,50-59,0,3,Middle Class
+C00213,83,Female,Jerry Watkins,"25,000-49,999",Chennai,Yes,Medium,osanchez@example.net,80+,1,2,Economy
+C00214,74,Female,Matthew Sloan,"50,000-74,999",Mumbai,Yes,Low,kylekim@example.org,70-79,1,3,Middle Class
+C00215,22,Male,Juan Fuller,"75,000-99,999",Surat,No,Low,melissa99@example.org,20-29,0,4,Premium Low
+C00216,39,Female,Wayne Roberts,"<25,000",Bangalore,Yes,Medium,betty43@example.com,30-39,1,1,Economy
+C00217,31,Female,Dennis Liu,"100,000+",Delhi,Yes,High,leejesse@example.org,30-39,1,5,Premium High
+C00218,42,Male,Lindsay Gutierrez,"50,000-74,999",Pune,No,Medium,rking@example.com,40-49,0,3,Middle Class
+C00219,63,Male,Andrew Mata,"75,000-99,999",Lucknow,No,High,stevenhernandez@example.org,60-69,0,4,Premium High
+C00220,46,Male,Heather Moore,"100,000+",Lucknow,Yes,Medium,iwhite@example.net,40-49,1,5,Premium Medium
+C00221,51,Male,Tiffany Sloan,"<25,000",Lucknow,Yes,High,carloswood@example.net,50-59,1,1,Economy
+C00222,71,Male,Donna Nelson,"<25,000",Jaipur,Yes,Medium,jkeller@example.com,70-79,1,1,Economy
+C00223,78,Male,Walter Castillo,"75,000-99,999",Kanpur,Yes,Low,isabel50@example.net,70-79,1,4,Premium Low
+C00224,49,Female,Alyssa Franco,"100,000+",Jaipur,No,High,linda00@example.com,40-49,0,5,Premium High
+C00225,56,Male,Amanda Jones,"100,000+",Hyderabad,Yes,High,nicholas54@example.org,50-59,1,5,Premium High
+C00226,49,Female,Maxwell Heath,"<25,000",Kanpur,No,High,beverlyjones@example.net,40-49,0,1,Economy
+C00227,72,Male,Charles Keith,"100,000+",Kolkata,Yes,High,mary94@example.net,70-79,1,5,Premium High
+C00228,67,Male,Kevin Henry,"<25,000",Surat,Yes,Medium,brandondrake@example.com,60-69,1,1,Economy
+C00229,78,Female,Anthony Smith,"<25,000",Pune,No,High,garzascott@example.net,70-79,0,1,Economy
+C00230,39,Male,Shane Nelson,"50,000-74,999",Ahmedabad,No,Low,emily80@example.org,30-39,0,3,Middle Class
+C00231,45,Male,Emily Anderson,"25,000-49,999",Bangalore,No,Medium,nicholas50@example.com,40-49,0,2,Economy
+C00232,79,Male,Tanya Dean,"75,000-99,999",Bangalore,Yes,High,sara36@example.com,70-79,1,4,Premium High
+C00233,79,Female,Sandra Garcia,"100,000+",Hyderabad,Yes,Medium,fstanley@example.org,70-79,1,5,Premium Medium
+C00234,71,Male,Nicole Benson,"50,000-74,999",Lucknow,Yes,Low,yrobinson@example.org,70-79,1,3,Middle Class
+C00235,59,Male,Miguel Wilson,"50,000-74,999",Chennai,Yes,Medium,jordanjennifer@example.org,50-59,1,3,Middle Class
+C00236,37,Female,Lisa Oliver,"100,000+",Lucknow,Yes,Medium,khall@example.net,30-39,1,5,Premium Medium
+C00237,23,Female,Jordan Rice,"100,000+",Chennai,No,Low,sarah68@example.org,20-29,0,5,Premium Low
+C00238,37,Female,Sara Robinson,"100,000+",Mumbai,Yes,Medium,chad34@example.org,30-39,1,5,Premium Medium
+C00239,41,Female,Mark Mosley,"50,000-74,999",Pune,Yes,Low,frankhill@example.com,40-49,1,3,Middle Class
+C00240,42,Female,Brittany Townsend,"<25,000",Lucknow,No,Medium,stonegabriella@example.com,40-49,0,1,Economy
+C00241,37,Male,Ryan Jones,"75,000-99,999",Surat,Yes,Low,ericramos@example.org,30-39,1,4,Premium Low
+C00242,63,Female,Brenda Parker,"100,000+",Pune,No,High,phamchristy@example.net,60-69,0,5,Premium High
+C00243,63,Male,Amanda Clark,"50,000-74,999",Bangalore,No,High,christinapeterson@example.com,60-69,0,3,Middle Class
+C00244,23,Female,Stacy Ortiz,"<25,000",Ahmedabad,No,Medium,stuartdonna@example.org,20-29,0,1,Economy
+C00245,30,Male,Amanda Anderson,"75,000-99,999",Chennai,Yes,Medium,ericroberts@example.net,30-39,1,4,Premium Medium
+C00246,30,Male,Terry Kerr,"50,000-74,999",Kanpur,Yes,High,olucas@example.com,30-39,1,3,Middle Class
+C00247,61,Male,Emily Donovan,"25,000-49,999",Mumbai,No,Medium,cmartin@example.net,60-69,0,2,Economy
+C00248,52,Female,Patricia Mclean,"25,000-49,999",Lucknow,Yes,Low,crystal19@example.com,50-59,1,2,Economy
+C00249,36,Male,Jennifer Harris,"75,000-99,999",Kolkata,Yes,Medium,grahammelinda@example.net,30-39,1,4,Premium Medium
+C00250,48,Male,Robert Alvarez,"75,000-99,999",Kanpur,No,Medium,janetfuller@example.org,40-49,0,4,Premium Medium
+C00251,71,Male,Matthew Anderson,"75,000-99,999",Jaipur,No,Medium,dmaxwell@example.org,70-79,0,4,Premium Medium
+C00252,44,Female,Angela Caldwell,"<25,000",Kanpur,No,High,qtorres@example.net,40-49,0,1,Economy
+C00253,76,Male,Eric Pham,"25,000-49,999",Pune,No,High,andradekatherine@example.com,70-79,0,2,Economy
+C00254,26,Male,Brittany Moore,"100,000+",Lucknow,Yes,Medium,rhodesstephanie@example.com,20-29,1,5,Premium Medium
+C00255,48,Male,Melanie Pierce,"50,000-74,999",Chennai,No,High,christopher78@example.org,40-49,0,3,Middle Class
+C00256,73,Male,Richard Peterson,"100,000+",Kanpur,No,High,tphillips@example.org,70-79,0,5,Premium High
+C00257,46,Male,Sarah Hammond,"100,000+",Ahmedabad,Yes,Medium,jeremyjohnson@example.org,40-49,1,5,Premium Medium
+C00258,63,Female,Carrie Gordon,"25,000-49,999",Kolkata,Yes,High,lindsay55@example.net,60-69,1,2,Economy
+C00259,42,Female,Tricia Brown DVM,"<25,000",Jaipur,No,Medium,aaronphillips@example.com,40-49,0,1,Economy
+C00260,26,Male,Andrew Pugh,"25,000-49,999",Lucknow,Yes,Medium,clee@example.net,20-29,1,2,Economy
+C00261,31,Male,Richard Smith,"<25,000",Delhi,No,High,kdunn@example.org,30-39,0,1,Economy
+C00262,60,Female,Christopher Rivera,"25,000-49,999",Kolkata,No,High,vkim@example.net,60-69,0,2,Economy
+C00263,63,Male,Joshua Martin,"<25,000",Chennai,No,High,jimeneznathan@example.com,60-69,0,1,Economy
+C00264,73,Male,Dustin Richardson,"<25,000",Hyderabad,No,High,jcastro@example.com,70-79,0,1,Economy
+C00265,72,Male,Shane Brown,"100,000+",Kanpur,Yes,Medium,anguyen@example.net,70-79,1,5,Premium Medium
+C00266,37,Male,Michelle Smith,"75,000-99,999",Delhi,Yes,Low,osimmons@example.net,30-39,1,4,Premium Low
+C00267,60,Male,Jose Ruiz,"50,000-74,999",Ahmedabad,No,Low,paul62@example.org,60-69,0,3,Middle Class
+C00268,59,Female,Jamie Davis,"75,000-99,999",Pune,Yes,High,nolanheather@example.net,50-59,1,4,Premium High
+C00269,62,Female,Mr. Jon Smith,"50,000-74,999",Kanpur,No,High,evansjames@example.net,60-69,0,3,Middle Class
+C00270,72,Female,Kristine Weber,"75,000-99,999",Bangalore,No,Low,andrewmurphy@example.org,70-79,0,4,Premium Low
+C00271,31,Female,Heather Allen,"100,000+",Chennai,No,High,kylebeasley@example.net,30-39,0,5,Premium High
+C00272,83,Male,Suzanne Martin,"50,000-74,999",Delhi,Yes,Medium,bflores@example.com,80+,1,3,Middle Class
+C00273,48,Female,Ronald Nolan,"100,000+",Mumbai,Yes,Low,mariabrown@example.net,40-49,1,5,Premium Low
+C00274,29,Female,Hannah Matthews,"50,000-74,999",Ahmedabad,No,Medium,daniel25@example.org,20-29,0,3,Middle Class
+C00275,77,Male,Holly Murphy,"50,000-74,999",Jaipur,Yes,High,jmaxwell@example.net,70-79,1,3,Middle Class
+C00276,67,Male,Jacob Odom,"50,000-74,999",Kanpur,No,High,suarezeric@example.com,60-69,0,3,Middle Class
+C00277,49,Female,Joshua Sanders,"75,000-99,999",Kanpur,Yes,High,bendersarah@example.com,40-49,1,4,Premium High
+C00278,64,Male,Eric Martin,"<25,000",Pune,Yes,Low,nicole19@example.net,60-69,1,1,Economy
+C00279,64,Male,Jeffrey Gonzalez,"<25,000",Mumbai,Yes,Low,thorntonshelly@example.org,60-69,1,1,Economy
+C00280,84,Male,Justin Hancock,"75,000-99,999",Bangalore,No,Medium,heather99@example.net,80+,0,4,Premium Medium
+C00281,49,Female,Angela Sloan,"75,000-99,999",Delhi,Yes,High,tracy08@example.org,40-49,1,4,Premium High
+C00282,59,Female,Lori Cruz,"75,000-99,999",Delhi,No,Low,jessica62@example.net,50-59,0,4,Premium Low
+C00283,37,Female,Nathaniel Marshall,"25,000-49,999",Jaipur,No,High,elizabethhawkins@example.org,30-39,0,2,Economy
+C00284,70,Male,Tina Giles,"50,000-74,999",Delhi,No,High,wlopez@example.com,70-79,0,3,Middle Class
+C00285,46,Female,Elizabeth Compton,"100,000+",Kolkata,No,High,tinahorton@example.org,40-49,0,5,Premium High
+C00286,52,Female,Jennifer Hill,"75,000-99,999",Kolkata,Yes,Low,richard20@example.net,50-59,1,4,Premium Low
+C00287,80,Female,Brittany Wheeler,"75,000-99,999",Delhi,No,Low,anthonymills@example.net,80+,0,4,Premium Low
+C00288,58,Female,Paul Riley,"75,000-99,999",Lucknow,No,Medium,angelakent@example.net,50-59,0,4,Premium Medium
+C00289,52,Male,Lisa Valentine DDS,"75,000-99,999",Jaipur,No,High,oray@example.org,50-59,0,4,Premium High
+C00290,39,Male,Alice Riley,"50,000-74,999",Lucknow,Yes,Medium,pattersonjennifer@example.com,30-39,1,3,Middle Class
+C00291,27,Female,Peter Smith,"25,000-49,999",Surat,Yes,Medium,spencereric@example.org,20-29,1,2,Economy
+C00292,35,Female,Rebecca Ayala,"50,000-74,999",Chennai,Yes,High,brittanybarr@example.net,30-39,1,3,Middle Class
+C00293,25,Male,Ryan Dominguez,"<25,000",Chennai,No,High,scottshannon@example.com,20-29,0,1,Economy
+C00294,62,Female,Amanda Johnston,"50,000-74,999",Bangalore,Yes,Low,tford@example.com,60-69,1,3,Middle Class
+C00295,29,Male,Taylor Holland,"25,000-49,999",Delhi,Yes,Low,wjones@example.net,20-29,1,2,Economy
+C00296,54,Female,Dawn Johnson,"100,000+",Mumbai,Yes,Low,davidrojas@example.com,50-59,1,5,Premium Low
+C00297,74,Male,Katie Hill,"50,000-74,999",Kanpur,No,Low,michaelharmon@example.net,70-79,0,3,Middle Class
+C00298,45,Male,Martha Pacheco,"75,000-99,999",Chennai,No,Medium,destinymerritt@example.com,40-49,0,4,Premium Medium
+C00299,84,Female,Patrick Walls,"100,000+",Mumbai,Yes,Low,xhenderson@example.org,80+,1,5,Premium Low
+C00300,34,Male,Carrie Hess,"25,000-49,999",Chennai,No,Low,cpatel@example.com,30-39,0,2,Economy
+C00301,32,Female,Dawn Sanders,"50,000-74,999",Hyderabad,No,Low,stephenmontes@example.org,30-39,0,3,Middle Class
+C00302,47,Male,Diana Berry,"<25,000",Jaipur,No,Low,beth23@example.com,40-49,0,1,Economy
+C00303,31,Female,Russell Williams,"100,000+",Kolkata,No,Low,amanda59@example.org,30-39,0,5,Premium Low
+C00304,21,Male,Jason Mendoza,"100,000+",Jaipur,No,Medium,greenryan@example.org,20-29,0,5,Premium Medium
+C00305,37,Male,Sarah Hill,"100,000+",Kanpur,No,Low,kimberlyrobertson@example.org,30-39,0,5,Premium Low
+C00306,64,Female,Jason Ramirez,"100,000+",Hyderabad,No,High,ppaul@example.com,60-69,0,5,Premium High
+C00307,29,Male,Anthony Smith,"100,000+",Jaipur,No,Medium,hjohnson@example.org,20-29,0,5,Premium Medium
+C00308,33,Female,Ronald Hughes,"75,000-99,999",Lucknow,No,Medium,daniel74@example.net,30-39,0,4,Premium Medium
+C00309,36,Male,Jamie Munoz,"25,000-49,999",Lucknow,No,Low,brent74@example.com,30-39,0,2,Economy
+C00310,33,Female,Max Cameron,"50,000-74,999",Jaipur,Yes,Medium,jjones@example.com,30-39,1,3,Middle Class
+C00311,44,Male,Wendy Fuentes,"100,000+",Hyderabad,Yes,Medium,floresolivia@example.net,40-49,1,5,Premium Medium
+C00312,51,Female,James Taylor,"<25,000",Pune,Yes,Medium,brownkevin@example.org,50-59,1,1,Economy
+C00313,57,Male,Brandon Gomez,"75,000-99,999",Mumbai,Yes,Low,crystal35@example.com,50-59,1,4,Premium Low
+C00314,79,Male,Heather Hoover,"<25,000",Chennai,No,Low,johnsonsarah@example.org,70-79,0,1,Economy
+C00315,69,Female,Kimberly Douglas,"<25,000",Kolkata,Yes,High,nanderson@example.org,60-69,1,1,Economy
+C00316,79,Female,Adam Craig,"<25,000",Pune,Yes,High,gregorysmith@example.com,70-79,1,1,Economy
+C00317,82,Male,Jonathan Fields,"100,000+",Kolkata,Yes,Low,christopher17@example.org,80+,1,5,Premium Low
+C00318,60,Female,Jeffery Rodriguez,"50,000-74,999",Ahmedabad,Yes,Medium,alexis95@example.net,60-69,1,3,Middle Class
+C00319,66,Male,Dalton Andrews,"25,000-49,999",Mumbai,No,Medium,wolfjackie@example.org,60-69,0,2,Economy
+C00320,77,Male,Cody Howard,"75,000-99,999",Hyderabad,No,Low,michelleclark@example.org,70-79,0,4,Premium Low
+C00321,82,Female,James Davis,"75,000-99,999",Chennai,Yes,Low,burnsjames@example.org,80+,1,4,Premium Low
+C00322,64,Male,Pamela Cannon,"25,000-49,999",Pune,No,Medium,thomas57@example.org,60-69,0,2,Economy
+C00323,76,Female,Becky Avila,"100,000+",Jaipur,Yes,High,jenniferbaker@example.com,70-79,1,5,Premium High
+C00324,38,Female,Stephanie Kennedy,"50,000-74,999",Ahmedabad,Yes,High,stevensonalyssa@example.com,30-39,1,3,Middle Class
+C00325,52,Male,Kelsey Hill,"100,000+",Lucknow,No,Medium,morenolaura@example.com,50-59,0,5,Premium Medium
+C00326,34,Female,Yvonne Anthony,"25,000-49,999",Bangalore,Yes,Low,wolfejonathan@example.net,30-39,1,2,Economy
+C00327,58,Male,Daniel Nielsen,"75,000-99,999",Jaipur,No,Low,bergerjorge@example.org,50-59,0,4,Premium Low
+C00328,75,Female,Alan Davis,"100,000+",Hyderabad,Yes,Low,michael89@example.org,70-79,1,5,Premium Low
+C00329,79,Male,Joshua Carr,"100,000+",Chennai,Yes,High,ortegadaniel@example.net,70-79,1,5,Premium High
+C00330,65,Male,Benjamin Craig,"50,000-74,999",Kanpur,Yes,Low,pattersonvincent@example.net,60-69,1,3,Middle Class
+C00331,72,Male,Vickie Edwards,"<25,000",Hyderabad,Yes,Low,mckayjames@example.org,70-79,1,1,Economy
+C00332,70,Female,Ashley Martinez,"50,000-74,999",Kolkata,No,Medium,lowerylogan@example.net,70-79,0,3,Middle Class
+C00333,76,Male,Lynn Waters,"25,000-49,999",Bangalore,No,Medium,tharris@example.org,70-79,0,2,Economy
+C00334,48,Female,Michael Harding,"50,000-74,999",Lucknow,Yes,Low,christophermartinez@example.com,40-49,1,3,Middle Class
+C00335,70,Female,Judy Delgado,"100,000+",Ahmedabad,Yes,High,jordan03@example.com,70-79,1,5,Premium High
+C00336,67,Male,Tina Roberts,"<25,000",Surat,No,Low,ofreeman@example.net,60-69,0,1,Economy
+C00337,74,Female,Michael Barker,"50,000-74,999",Delhi,Yes,High,amandamills@example.net,70-79,1,3,Middle Class
+C00338,43,Male,Jennifer Garcia,"100,000+",Kanpur,No,High,kylemoore@example.net,40-49,0,5,Premium High
+C00339,74,Female,Lisa Alvarez,"50,000-74,999",Jaipur,No,Medium,hbrown@example.net,70-79,0,3,Middle Class
+C00340,52,Female,Lindsay Cordova,"<25,000",Mumbai,Yes,Low,hfigueroa@example.com,50-59,1,1,Economy
+C00341,54,Male,John Guzman,"100,000+",Lucknow,Yes,Low,allen00@example.org,50-59,1,5,Premium Low
+C00342,77,Female,Michael Chen,"75,000-99,999",Chennai,Yes,High,lgonzalez@example.com,70-79,1,4,Premium High
+C00343,52,Female,Kimberly Mcdonald,"<25,000",Jaipur,No,High,lbrown@example.com,50-59,0,1,Economy
+C00344,76,Male,Jason Huynh,"25,000-49,999",Kanpur,Yes,Low,dianeswanson@example.com,70-79,1,2,Economy
+C00345,75,Female,Gina Hartman,"75,000-99,999",Mumbai,Yes,Medium,gary67@example.org,70-79,1,4,Premium Medium
+C00346,34,Male,Mr. Joseph Reynolds MD,"50,000-74,999",Pune,No,Medium,fbrewer@example.net,30-39,0,3,Middle Class
+C00347,27,Male,Laurie Garcia,"25,000-49,999",Hyderabad,No,High,michealblake@example.com,20-29,0,2,Economy
+C00348,35,Male,Jane Hicks,"50,000-74,999",Chennai,Yes,Low,jacobmorrison@example.org,30-39,1,3,Middle Class
+C00349,81,Male,Erik Baker,"75,000-99,999",Pune,No,Medium,derek55@example.net,80+,0,4,Premium Medium
+C00350,84,Female,Brenda Barker,"25,000-49,999",Kolkata,Yes,High,bevans@example.com,80+,1,2,Economy
+C00351,77,Female,Jesse Jackson,"25,000-49,999",Ahmedabad,No,High,floresaustin@example.com,70-79,0,2,Economy
+C00352,77,Female,Corey Mcgee,"50,000-74,999",Pune,Yes,Low,francisdebra@example.net,70-79,1,3,Middle Class
+C00353,35,Male,Timothy Austin,"75,000-99,999",Surat,No,Medium,stephenrodriguez@example.net,30-39,0,4,Premium Medium
+C00354,73,Male,Julian Wood,"<25,000",Delhi,No,Medium,howard13@example.org,70-79,0,1,Economy
+C00355,36,Female,Maria Singh,"<25,000",Pune,Yes,High,pfox@example.org,30-39,1,1,Economy
+C00356,82,Female,Sara Ruiz,"75,000-99,999",Lucknow,No,Low,gregorypatricia@example.net,80+,0,4,Premium Low
+C00357,63,Male,Julie Adams,"100,000+",Ahmedabad,No,Low,sarahoover@example.net,60-69,0,5,Premium Low
+C00358,54,Female,Terry Collins,"75,000-99,999",Kanpur,No,Low,chandlerjames@example.com,50-59,0,4,Premium Low
+C00359,26,Male,Katherine Rodgers,"75,000-99,999",Mumbai,Yes,High,sdeleon@example.com,20-29,1,4,Premium High
+C00360,34,Female,Robert Martinez,"100,000+",Jaipur,No,Medium,robinpotts@example.org,30-39,0,5,Premium Medium
+C00361,47,Male,Jamie Nichols,"50,000-74,999",Kolkata,No,Medium,erinhodges@example.org,40-49,0,3,Middle Class
+C00362,30,Male,Tiffany Carter,"25,000-49,999",Jaipur,No,High,anthony14@example.org,30-39,0,2,Economy
+C00363,41,Male,Derrick Cooper,"75,000-99,999",Kanpur,No,High,samanthapratt@example.net,40-49,0,4,Premium High
+C00364,76,Female,Carol Marquez,"75,000-99,999",Surat,No,Low,sharplindsay@example.com,70-79,0,4,Premium Low
+C00365,33,Female,Melissa Taylor MD,"50,000-74,999",Kolkata,Yes,High,gharding@example.net,30-39,1,3,Middle Class
+C00366,79,Female,William Hernandez,"100,000+",Kanpur,No,Low,marco00@example.org,70-79,0,5,Premium Low
+C00367,71,Female,Robert Meadows,"75,000-99,999",Surat,No,High,campbellkimberly@example.org,70-79,0,4,Premium High
+C00368,43,Male,Daniel Cox,"75,000-99,999",Mumbai,No,High,matthew17@example.net,40-49,0,4,Premium High
+C00369,84,Female,Marisa Lutz,"25,000-49,999",Bangalore,No,Medium,michael05@example.net,80+,0,2,Economy
+C00370,66,Female,Holly Douglas,"100,000+",Jaipur,No,Medium,rileyalejandro@example.net,60-69,0,5,Premium Medium
+C00371,82,Female,Christina Bradshaw,"100,000+",Surat,No,Low,jasondavis@example.net,80+,0,5,Premium Low
+C00372,59,Female,Angela Bailey,"<25,000",Jaipur,Yes,High,mary98@example.net,50-59,1,1,Economy
+C00373,45,Female,David King,"<25,000",Pune,Yes,High,uwilson@example.net,40-49,1,1,Economy
+C00374,80,Female,Mary Briggs,"75,000-99,999",Surat,No,Low,donnawest@example.org,80+,0,4,Premium Low
+C00375,81,Female,Joy Fox,"100,000+",Hyderabad,No,High,tracy27@example.net,80+,0,5,Premium High
+C00376,58,Male,Debra Morrison,"25,000-49,999",Ahmedabad,No,Medium,fmorris@example.net,50-59,0,2,Economy
+C00377,43,Female,Cody Torres,"100,000+",Chennai,Yes,Low,emily50@example.net,40-49,1,5,Premium Low
+C00378,71,Female,Tammy Morris,"50,000-74,999",Ahmedabad,Yes,Medium,allison34@example.net,70-79,1,3,Middle Class
+C00379,46,Male,Nichole Campbell,"25,000-49,999",Bangalore,Yes,Low,paulallen@example.net,40-49,1,2,Economy
+C00380,37,Female,Christine Ingram,"25,000-49,999",Lucknow,Yes,Medium,jasmine82@example.net,30-39,1,2,Economy
+C00381,45,Female,Deborah Peterson,"75,000-99,999",Mumbai,Yes,Medium,ellisonjacob@example.net,40-49,1,4,Premium Medium
+C00382,36,Male,Stephanie Barry,"100,000+",Bangalore,Yes,Low,jeffreygarcia@example.org,30-39,1,5,Premium Low
+C00383,39,Male,Joshua Webster,"25,000-49,999",Lucknow,Yes,Low,carol63@example.org,30-39,1,2,Economy
+C00384,35,Female,Dawn Gallagher,"100,000+",Bangalore,No,Low,cunninghamsharon@example.net,30-39,0,5,Premium Low
+C00385,68,Female,Charles Hanson,"<25,000",Mumbai,No,Medium,shawn28@example.com,60-69,0,1,Economy
+C00386,76,Male,Derek Schneider,"50,000-74,999",Ahmedabad,No,High,vberry@example.net,70-79,0,3,Middle Class
+C00387,66,Female,Dawn Mathis,"<25,000",Bangalore,No,Low,myang@example.net,60-69,0,1,Economy
+C00388,69,Female,Michelle Garrett,"75,000-99,999",Kanpur,No,High,samantha03@example.org,60-69,0,4,Premium High
+C00389,46,Female,Robert Frazier,"75,000-99,999",Surat,Yes,Medium,ithompson@example.org,40-49,1,4,Premium Medium
+C00390,84,Male,Danielle Wood,"75,000-99,999",Surat,Yes,High,morrisonedward@example.org,80+,1,4,Premium High
+C00391,84,Male,Christy Baker,"75,000-99,999",Delhi,Yes,Low,ralphpace@example.net,80+,1,4,Premium Low
+C00392,43,Male,Jose Fields,"25,000-49,999",Ahmedabad,No,High,boylebenjamin@example.net,40-49,0,2,Economy
+C00393,67,Male,Brian Brown,"25,000-49,999",Delhi,Yes,Medium,william39@example.net,60-69,1,2,Economy
+C00394,21,Female,Leonard Hunt,"<25,000",Kolkata,No,High,mistygross@example.net,20-29,0,1,Economy
+C00395,82,Male,Claudia Hawkins,"75,000-99,999",Hyderabad,No,Low,rhonda52@example.net,80+,0,4,Premium Low
+C00396,48,Female,Mrs. Michaela Vincent,"75,000-99,999",Ahmedabad,Yes,Low,ljones@example.org,40-49,1,4,Premium Low
+C00397,35,Male,Bobby Burns,"50,000-74,999",Kanpur,Yes,Low,alicekelly@example.net,30-39,1,3,Middle Class
+C00398,55,Female,Steven Brown,"100,000+",Hyderabad,Yes,High,yrobinson@example.org,50-59,1,5,Premium High
+C00399,40,Male,Gabriel Ortiz,"50,000-74,999",Kanpur,Yes,Low,john12@example.net,40-49,1,3,Middle Class
+C00400,23,Male,Michael Watts,"75,000-99,999",Jaipur,No,Low,xmccoy@example.org,20-29,0,4,Premium Low
+C00401,77,Male,Karen Holloway,"<25,000",Kolkata,No,High,ashleypowers@example.net,70-79,0,1,Economy
+C00402,44,Male,Matthew Reyes,"25,000-49,999",Bangalore,Yes,Medium,hughescharles@example.net,40-49,1,2,Economy
+C00403,76,Female,Paul Jackson,"100,000+",Surat,Yes,Low,perezmisty@example.com,70-79,1,5,Premium Low
+C00404,58,Male,Seth Kim,"75,000-99,999",Hyderabad,No,Low,jwinters@example.com,50-59,0,4,Premium Low
+C00405,31,Male,Christopher Estes,"50,000-74,999",Chennai,Yes,Low,robinsonjoshua@example.net,30-39,1,3,Middle Class
+C00406,70,Male,Gregory Moore,"25,000-49,999",Chennai,No,Low,eriley@example.org,70-79,0,2,Economy
+C00407,39,Male,Anthony Santiago,"50,000-74,999",Mumbai,No,Medium,cindyspencer@example.com,30-39,0,3,Middle Class
+C00408,65,Female,Jean Bartlett,"<25,000",Surat,No,Medium,zhuber@example.net,60-69,0,1,Economy
+C00409,22,Female,Mark Brown,"50,000-74,999",Ahmedabad,Yes,Medium,matthewmatthews@example.net,20-29,1,3,Middle Class
+C00410,80,Male,Nicole Miller,"75,000-99,999",Kanpur,No,High,spineda@example.org,80+,0,4,Premium High
+C00411,23,Male,Nancy Colon,"50,000-74,999",Ahmedabad,Yes,Medium,osanchez@example.net,20-29,1,3,Middle Class
+C00412,36,Female,Michael Hughes,"75,000-99,999",Delhi,Yes,Low,morrisbrett@example.org,30-39,1,4,Premium Low
+C00413,28,Male,Erica Parker,"75,000-99,999",Ahmedabad,No,Low,perrymeghan@example.net,20-29,0,4,Premium Low
+C00414,74,Female,Linda Duffy,"25,000-49,999",Ahmedabad,No,Low,katherinepope@example.org,70-79,0,2,Economy
+C00415,30,Female,Nicole Daniels,"25,000-49,999",Hyderabad,No,Medium,brandi07@example.org,30-39,0,2,Economy
+C00416,32,Female,Anne Nolan,"75,000-99,999",Ahmedabad,Yes,Low,kimpierce@example.net,30-39,1,4,Premium Low
+C00417,36,Male,Stephen Webb,"100,000+",Ahmedabad,No,High,nealmaria@example.org,30-39,0,5,Premium High
+C00418,68,Male,Timothy Hunter,"75,000-99,999",Kolkata,No,High,william63@example.net,60-69,0,4,Premium High
+C00419,52,Male,Jessica Ramirez,"50,000-74,999",Bangalore,Yes,Low,torressydney@example.net,50-59,1,3,Middle Class
+C00420,77,Female,Angela Joyce,"50,000-74,999",Lucknow,No,Low,cordovathomas@example.org,70-79,0,3,Middle Class
+C00421,64,Female,Carla Adams,"25,000-49,999",Hyderabad,Yes,High,jfisher@example.org,60-69,1,2,Economy
+C00422,55,Male,Vicki Wall,"25,000-49,999",Ahmedabad,Yes,High,edwin74@example.org,50-59,1,2,Economy
+C00423,53,Female,Christopher Murillo,"25,000-49,999",Jaipur,No,Medium,rayrobinson@example.org,50-59,0,2,Economy
+C00424,38,Female,Robert Moses,"50,000-74,999",Hyderabad,No,Medium,tmartinez@example.net,30-39,0,3,Middle Class
+C00425,32,Female,Kristine Nguyen,"50,000-74,999",Delhi,No,Medium,petersonnicole@example.com,30-39,0,3,Middle Class
+C00426,75,Male,Mrs. Alyssa Thornton,"100,000+",Surat,No,Medium,rodriguezjamie@example.com,70-79,0,5,Premium Medium
+C00427,39,Male,Jill Price,"25,000-49,999",Jaipur,Yes,Medium,campbellrebecca@example.com,30-39,1,2,Economy
+C00428,53,Female,David Nunez,"75,000-99,999",Kanpur,No,Medium,john16@example.com,50-59,0,4,Premium Medium
+C00429,73,Male,Karen West,"75,000-99,999",Bangalore,No,High,william42@example.net,70-79,0,4,Premium High
+C00430,33,Male,Mrs. Lauren Morales,"25,000-49,999",Bangalore,No,Medium,rebecca01@example.com,30-39,0,2,Economy
+C00431,67,Female,Bobby Deleon,"<25,000",Bangalore,Yes,Low,taylor09@example.com,60-69,1,1,Economy
+C00432,67,Female,Natasha Meyers,"50,000-74,999",Surat,No,Low,yrichards@example.org,60-69,0,3,Middle Class
+C00433,26,Female,Heidi Mooney,"50,000-74,999",Lucknow,No,High,thomasadrienne@example.com,20-29,0,3,Middle Class
+C00434,46,Male,Amy Rodriguez,"<25,000",Kolkata,Yes,High,lovejacqueline@example.org,40-49,1,1,Economy
+C00435,34,Male,Lance Richardson,"<25,000",Ahmedabad,Yes,Low,nhaynes@example.org,30-39,1,1,Economy
+C00436,30,Female,Frank Williams,"100,000+",Hyderabad,Yes,Low,jchan@example.com,30-39,1,5,Premium Low
+C00437,25,Male,William Barr,"25,000-49,999",Kanpur,Yes,Low,aliciayates@example.org,20-29,1,2,Economy
+C00438,75,Female,Jose Aguirre,"75,000-99,999",Chennai,No,High,timothy21@example.org,70-79,0,4,Premium High
+C00439,64,Male,Daniel Lane,"25,000-49,999",Lucknow,No,Low,gregory16@example.com,60-69,0,2,Economy
+C00440,69,Female,Michele Shea,"75,000-99,999",Delhi,No,High,elizabeth18@example.net,60-69,0,4,Premium High
+C00441,66,Male,Matthew Dean,"100,000+",Bangalore,Yes,Medium,parkerhenry@example.net,60-69,1,5,Premium Medium
+C00442,33,Female,Ryan Brown,"50,000-74,999",Mumbai,Yes,Low,prodriguez@example.net,30-39,1,3,Middle Class
+C00443,51,Female,George Franklin,"25,000-49,999",Jaipur,Yes,Low,ubell@example.com,50-59,1,2,Economy
+C00444,56,Female,Lisa Elliott,"100,000+",Hyderabad,No,High,pdavis@example.org,50-59,0,5,Premium High
+C00445,80,Male,Michael Stewart,"<25,000",Delhi,Yes,Low,catherine88@example.org,80+,1,1,Economy
+C00446,36,Female,Isaac Strickland,"25,000-49,999",Chennai,No,High,dgomez@example.org,30-39,0,2,Economy
+C00447,68,Male,Catherine Johnson,"<25,000",Jaipur,Yes,High,scottalison@example.org,60-69,1,1,Economy
+C00448,75,Female,Leslie Brown,"75,000-99,999",Surat,No,Medium,tamara94@example.org,70-79,0,4,Premium Medium
+C00449,67,Male,Stacey Phillips,"50,000-74,999",Ahmedabad,Yes,High,ubutler@example.net,60-69,1,3,Middle Class
+C00450,80,Male,Charles Henderson,"<25,000",Jaipur,No,High,ojackson@example.com,80+,0,1,Economy
+C00451,47,Female,Louis Jackson,"25,000-49,999",Pune,No,Low,derek25@example.org,40-49,0,2,Economy
+C00452,77,Male,Joy Perry,"75,000-99,999",Lucknow,Yes,High,amber86@example.net,70-79,1,4,Premium High
+C00453,65,Female,Charles Black,"75,000-99,999",Surat,Yes,Medium,tony07@example.com,60-69,1,4,Premium Medium
+C00454,67,Male,Russell Everett,"75,000-99,999",Ahmedabad,No,High,ian31@example.org,60-69,0,4,Premium High
+C00455,55,Female,Samantha Mcdonald,"75,000-99,999",Mumbai,Yes,Low,wilsonbrent@example.org,50-59,1,4,Premium Low
+C00456,77,Female,John Sheppard,"25,000-49,999",Pune,Yes,Low,tonyaallen@example.com,70-79,1,2,Economy
+C00457,59,Female,Donald Fitzgerald,"100,000+",Bangalore,No,High,ubrown@example.com,50-59,0,5,Premium High
+C00458,22,Female,Heather Williams,"<25,000",Hyderabad,No,High,franciskeller@example.org,20-29,0,1,Economy
+C00459,82,Male,Kimberly Walker,"100,000+",Bangalore,No,Medium,phillip08@example.net,80+,0,5,Premium Medium
+C00460,23,Female,Eric Pearson,"100,000+",Chennai,No,Low,robertmoreno@example.net,20-29,0,5,Premium Low
+C00461,23,Female,Crystal Wilcox,"<25,000",Hyderabad,No,Medium,jennifermoore@example.org,20-29,0,1,Economy
+C00462,41,Male,Elizabeth Smith,"25,000-49,999",Kanpur,Yes,High,zwilson@example.net,40-49,1,2,Economy
+C00463,45,Male,Johnny Collins,"50,000-74,999",Kanpur,No,Low,elizabeth97@example.net,40-49,0,3,Middle Class
+C00464,74,Female,Steven Miller,"<25,000",Pune,No,High,karacraig@example.net,70-79,0,1,Economy
+C00465,71,Female,Jennifer Scott,"75,000-99,999",Kolkata,Yes,Low,okerr@example.com,70-79,1,4,Premium Low
+C00466,67,Female,Jonathan Gonzalez,"100,000+",Lucknow,No,High,nnavarro@example.com,60-69,0,5,Premium High
+C00467,29,Female,Kristen Carpenter,"50,000-74,999",Kolkata,No,High,eflynn@example.org,20-29,0,3,Middle Class
+C00468,59,Male,Mariah Blanchard,"50,000-74,999",Lucknow,Yes,High,robersongregory@example.com,50-59,1,3,Middle Class
+C00469,22,Female,Kiara Nguyen,"25,000-49,999",Surat,Yes,Low,wwells@example.com,20-29,1,2,Economy
+C00470,66,Female,Jennifer Johnson,"50,000-74,999",Pune,No,High,dmccoy@example.net,60-69,0,3,Middle Class
+C00471,74,Male,Julia Mayo,"25,000-49,999",Mumbai,No,Medium,fischerjohn@example.org,70-79,0,2,Economy
+C00472,33,Male,Julie Richardson,"<25,000",Lucknow,No,Low,debra68@example.net,30-39,0,1,Economy
+C00473,62,Male,Barbara Williams,"50,000-74,999",Delhi,Yes,Low,william54@example.org,60-69,1,3,Middle Class
+C00474,81,Female,Jack Miller,"100,000+",Surat,Yes,Medium,william95@example.com,80+,1,5,Premium Medium
+C00475,51,Male,John Holder,"100,000+",Chennai,Yes,Low,ulee@example.com,50-59,1,5,Premium Low
+C00476,26,Female,Samuel Brown,"<25,000",Kanpur,No,High,mharvey@example.net,20-29,0,1,Economy
+C00477,50,Female,Jon Kaufman,"25,000-49,999",Kanpur,No,High,melanieedwards@example.com,50-59,0,2,Economy
+C00478,41,Male,Kathleen White,"75,000-99,999",Kolkata,No,High,lopezlaura@example.com,40-49,0,4,Premium High
+C00479,56,Male,Robert Hill,"25,000-49,999",Lucknow,Yes,High,gina46@example.org,50-59,1,2,Economy
+C00480,48,Male,Rebecca Rhodes,"75,000-99,999",Surat,No,Low,nathan85@example.org,40-49,0,4,Premium Low
+C00481,68,Male,Morgan Carpenter,"50,000-74,999",Ahmedabad,No,Low,denise24@example.net,60-69,0,3,Middle Class
+C00482,43,Male,Thomas Terry,"50,000-74,999",Lucknow,No,Low,smithrussell@example.net,40-49,0,3,Middle Class
+C00483,80,Male,Kenneth Baker,"<25,000",Surat,Yes,Low,delacruzchristopher@example.net,80+,1,1,Economy
+C00484,61,Female,Lisa Reeves,"75,000-99,999",Kolkata,No,High,dsmith@example.org,60-69,0,4,Premium High
+C00485,61,Female,Shari Brooks,"100,000+",Pune,Yes,Low,garciasabrina@example.com,60-69,1,5,Premium Low
+C00486,22,Female,Megan Cook,"100,000+",Delhi,No,Medium,lori21@example.com,20-29,0,5,Premium Medium
+C00487,37,Male,Damon Woods,"<25,000",Chennai,Yes,High,jason73@example.net,30-39,1,1,Economy
+C00488,59,Male,Bobby Pittman,"75,000-99,999",Mumbai,No,Medium,jordan93@example.net,50-59,0,4,Premium Medium
+C00489,40,Male,Ruben Burke,"75,000-99,999",Mumbai,Yes,High,kevinclark@example.net,40-49,1,4,Premium High
+C00490,73,Female,Brian Watson,"25,000-49,999",Kanpur,Yes,Low,jessica16@example.org,70-79,1,2,Economy
+C00491,55,Female,Hector White,"100,000+",Pune,Yes,High,barbara80@example.com,50-59,1,5,Premium High
+C00492,48,Male,William Moore,"100,000+",Delhi,No,Medium,gballard@example.net,40-49,0,5,Premium Medium
+C00493,57,Female,Kevin Ellis,"<25,000",Hyderabad,No,High,upham@example.org,50-59,0,1,Economy
+C00494,26,Male,Danielle Williams,"<25,000",Surat,No,High,nancy94@example.org,20-29,0,1,Economy
+C00495,31,Female,Linda Oneill,"100,000+",Kolkata,No,Low,dmeyer@example.net,30-39,0,5,Premium Low
+C00496,34,Female,Ralph Foster,"50,000-74,999",Chennai,No,Medium,jameswheeler@example.org,30-39,0,3,Middle Class
+C00497,74,Female,Erica Johnson,"75,000-99,999",Mumbai,No,Medium,dennis28@example.net,70-79,0,4,Premium Medium
+C00498,59,Male,Erica Rocha,"100,000+",Bangalore,Yes,High,sarawilson@example.net,50-59,1,5,Premium High
+C00499,63,Female,Mitchell Kline,"50,000-74,999",Hyderabad,Yes,High,pbrooks@example.com,60-69,1,3,Middle Class
+C00500,61,Male,Andrea Mccoy,"25,000-49,999",Hyderabad,Yes,Medium,eramos@example.com,60-69,1,2,Economy
+C00501,51,Male,Jennifer Chen,"100,000+",Kolkata,Yes,High,millerthomas@example.net,50-59,1,5,Premium High
+C00502,34,Female,Carol Duffy,"100,000+",Kolkata,Yes,Low,stephanie07@example.net,30-39,1,5,Premium Low
+C00503,68,Female,Todd Bennett,"50,000-74,999",Hyderabad,No,Low,kennedychristopher@example.org,60-69,0,3,Middle Class
+C00504,81,Male,Lisa Cochran,"75,000-99,999",Surat,Yes,Low,kelly29@example.net,80+,1,4,Premium Low
+C00505,45,Male,Briana Berry,"75,000-99,999",Pune,Yes,Medium,nharris@example.net,40-49,1,4,Premium Medium
+C00506,82,Female,Kimberly Ross,"100,000+",Bangalore,Yes,Low,zbentley@example.net,80+,1,5,Premium Low
+C00507,61,Female,Christopher Key,"<25,000",Jaipur,No,High,shellymyers@example.org,60-69,0,1,Economy
+C00508,40,Female,Matthew Hernandez,"25,000-49,999",Kanpur,Yes,Low,mariamorse@example.org,40-49,1,2,Economy
+C00509,32,Male,Christine Acevedo,"<25,000",Surat,No,Low,thomas98@example.net,30-39,0,1,Economy
+C00510,77,Male,Barbara Hull,"100,000+",Bangalore,No,Medium,zsantana@example.org,70-79,0,5,Premium Medium
+C00511,63,Female,Dana Barnes DVM,"25,000-49,999",Mumbai,No,Low,johnsonmichael@example.net,60-69,0,2,Economy
+C00512,65,Male,Brandon Perez,"<25,000",Delhi,Yes,High,savannah36@example.net,60-69,1,1,Economy
+C00513,54,Male,Angela Howard,"100,000+",Jaipur,No,High,angel29@example.com,50-59,0,5,Premium High
+C00514,31,Male,Dana Banks,"25,000-49,999",Kolkata,No,High,solisvictor@example.com,30-39,0,2,Economy
+C00515,30,Male,Veronica Moore,"50,000-74,999",Kolkata,No,Medium,danieljackson@example.com,30-39,0,3,Middle Class
+C00516,71,Male,Sabrina Boyer,"75,000-99,999",Pune,Yes,High,daniel84@example.org,70-79,1,4,Premium High
+C00517,21,Female,Elizabeth Hunt,"25,000-49,999",Lucknow,No,Medium,brownstephanie@example.net,20-29,0,2,Economy
+C00518,31,Female,Jennifer Moore,"25,000-49,999",Pune,No,High,davidberg@example.net,30-39,0,2,Economy
+C00519,25,Male,John Lam,"50,000-74,999",Pune,Yes,Low,pamwinters@example.net,20-29,1,3,Middle Class
+C00520,31,Female,Joseph Wilson,"25,000-49,999",Chennai,Yes,Low,pattersonkathy@example.net,30-39,1,2,Economy
+C00521,40,Female,Dennis Waters,"<25,000",Lucknow,No,High,kking@example.com,40-49,0,1,Economy
+C00522,23,Female,Kelli Reynolds MD,"25,000-49,999",Pune,Yes,High,tanner12@example.org,20-29,1,2,Economy
+C00523,45,Male,Jorge Ramirez,"50,000-74,999",Hyderabad,Yes,Medium,christinawilliams@example.com,40-49,1,3,Middle Class
+C00524,63,Female,Wayne Hamilton,"<25,000",Ahmedabad,No,High,murrayadam@example.com,60-69,0,1,Economy
+C00525,82,Female,Christina Owens,"100,000+",Jaipur,Yes,Low,martinezrobert@example.com,80+,1,5,Premium Low
+C00526,79,Female,Andrew Webster,"100,000+",Surat,Yes,High,feliciameyer@example.com,70-79,1,5,Premium High
+C00527,21,Female,John Howard,"50,000-74,999",Jaipur,No,Low,jessica12@example.net,20-29,0,3,Middle Class
+C00528,75,Female,Carl White,"25,000-49,999",Chennai,No,Low,zjackson@example.net,70-79,0,2,Economy
+C00529,59,Female,Mark Pierce,"50,000-74,999",Mumbai,Yes,High,psolis@example.org,50-59,1,3,Middle Class
+C00530,77,Male,Donald Collins,"25,000-49,999",Ahmedabad,No,Low,james04@example.net,70-79,0,2,Economy
+C00531,23,Male,David Schaefer,"50,000-74,999",Ahmedabad,No,Low,michael32@example.com,20-29,0,3,Middle Class
+C00532,74,Female,Madeline Simmons,"<25,000",Kolkata,Yes,Medium,williamperez@example.com,70-79,1,1,Economy
+C00533,44,Male,Robert Richardson,"75,000-99,999",Delhi,No,Medium,joseph02@example.net,40-49,0,4,Premium Medium
+C00534,48,Male,Patricia Brock,"50,000-74,999",Pune,Yes,Medium,hannah10@example.com,40-49,1,3,Middle Class
+C00535,58,Male,Sharon Walter,"<25,000",Hyderabad,No,Medium,jilliangraham@example.net,50-59,0,1,Economy
+C00536,71,Female,Joanne Collins,"75,000-99,999",Lucknow,Yes,Medium,wellsjoseph@example.org,70-79,1,4,Premium Medium
+C00537,45,Female,Jorge Pena,"25,000-49,999",Kolkata,No,High,keith89@example.org,40-49,0,2,Economy
+C00538,80,Male,Scott Miller,"25,000-49,999",Kolkata,No,Medium,sarahadams@example.com,80+,0,2,Economy
+C00539,66,Male,Lori Smith,"<25,000",Lucknow,Yes,Medium,ogonzalez@example.com,60-69,1,1,Economy
+C00540,52,Male,Christine Cox,"50,000-74,999",Ahmedabad,No,High,nathan49@example.org,50-59,0,3,Middle Class
+C00541,68,Male,Rodney Martin,"50,000-74,999",Bangalore,No,Medium,lindseyboyle@example.net,60-69,0,3,Middle Class
+C00542,50,Female,Anthony Parker,"<25,000",Surat,Yes,Medium,garciadaniel@example.org,50-59,1,1,Economy
+C00543,22,Female,Amber Boyd,"100,000+",Delhi,Yes,Low,ctucker@example.net,20-29,1,5,Premium Low
+C00544,82,Male,Jeff Barnes,"25,000-49,999",Delhi,No,Low,lindseyconner@example.com,80+,0,2,Economy
+C00545,22,Male,Melanie Rodriguez,"100,000+",Mumbai,No,Low,salinasronald@example.org,20-29,0,5,Premium Low
+C00546,74,Male,Sherry Patel,"25,000-49,999",Surat,No,High,rachel72@example.com,70-79,0,2,Economy
+C00547,44,Female,Joseph Banks,"<25,000",Delhi,No,Medium,freemantracy@example.com,40-49,0,1,Economy
+C00548,54,Male,William Ortega,"100,000+",Bangalore,No,Medium,gallegosdanielle@example.net,50-59,0,5,Premium Medium
+C00549,33,Female,Jamie Boyd,"<25,000",Mumbai,No,Medium,michael12@example.net,30-39,0,1,Economy
+C00550,35,Female,Jamie Moss,"25,000-49,999",Ahmedabad,Yes,Medium,stephanieyates@example.org,30-39,1,2,Economy
+C00551,67,Male,Michael Morales,"25,000-49,999",Chennai,Yes,Medium,cannonmary@example.net,60-69,1,2,Economy
+C00552,62,Male,Kayla Moore,"<25,000",Mumbai,Yes,Medium,amandahowe@example.com,60-69,1,1,Economy
+C00553,23,Female,Jackson Burke,"50,000-74,999",Surat,Yes,Low,pamelaruiz@example.net,20-29,1,3,Middle Class
+C00554,48,Male,Jean Hartman,"50,000-74,999",Pune,No,High,butlershelly@example.com,40-49,0,3,Middle Class
+C00555,26,Male,Emily Eaton,"25,000-49,999",Mumbai,Yes,High,donnamartin@example.org,20-29,1,2,Economy
+C00556,57,Male,Lisa Ward,"75,000-99,999",Lucknow,Yes,Low,roachashley@example.net,50-59,1,4,Premium Low
+C00557,50,Male,Donald Salazar DDS,"25,000-49,999",Kolkata,No,Medium,matthewbullock@example.org,50-59,0,2,Economy
+C00558,50,Male,Edward Wang,"<25,000",Kolkata,No,Low,erikmoody@example.com,50-59,0,1,Economy
+C00559,77,Female,Mario Wolfe,"100,000+",Pune,No,High,roger22@example.net,70-79,0,5,Premium High
+C00560,26,Female,Kristin Hernandez,"<25,000",Jaipur,No,Low,nnguyen@example.net,20-29,0,1,Economy
+C00561,63,Male,Nicole Dawson,"25,000-49,999",Mumbai,No,Low,andrewbeard@example.org,60-69,0,2,Economy
+C00562,61,Male,Ashley Miller,"100,000+",Ahmedabad,No,Medium,zmedina@example.com,60-69,0,5,Premium Medium
+C00563,23,Male,Michael Bennett,"<25,000",Chennai,No,Low,thomasjohnson@example.net,20-29,0,1,Economy
+C00564,29,Female,Michael Munoz,"75,000-99,999",Pune,Yes,Low,suzannejohnson@example.com,20-29,1,4,Premium Low
+C00565,33,Male,Todd Miller,"25,000-49,999",Ahmedabad,Yes,Low,murphyjames@example.org,30-39,1,2,Economy
+C00566,83,Male,Cheryl Martinez,"25,000-49,999",Surat,Yes,Low,theodoresnyder@example.net,80+,1,2,Economy
+C00567,65,Female,Victoria Rogers,"25,000-49,999",Bangalore,No,Medium,ysawyer@example.org,60-69,0,2,Economy
+C00568,37,Male,David Moore,"100,000+",Kanpur,Yes,Low,phillipsryan@example.net,30-39,1,5,Premium Low
+C00569,78,Female,Richard Williams,"100,000+",Ahmedabad,No,Low,sharontanner@example.org,70-79,0,5,Premium Low
+C00570,61,Male,Jason Matthews,"75,000-99,999",Pune,Yes,High,cruzwilliam@example.net,60-69,1,4,Premium High
+C00571,45,Male,James Holloway,"100,000+",Mumbai,Yes,High,cynthia79@example.org,40-49,1,5,Premium High
+C00572,68,Male,Natalie Mason,"50,000-74,999",Surat,Yes,Low,victor88@example.org,60-69,1,3,Middle Class
+C00573,68,Male,Taylor Cunningham,"75,000-99,999",Kolkata,No,Medium,holtlauren@example.net,60-69,0,4,Premium Medium
+C00574,46,Male,John Oconnor,"25,000-49,999",Ahmedabad,No,Low,russelljohnson@example.com,40-49,0,2,Economy
+C00575,39,Male,Courtney Jones,"<25,000",Chennai,No,High,wbrown@example.com,30-39,0,1,Economy
+C00576,84,Female,Julie Frank,"<25,000",Ahmedabad,No,Low,ngreene@example.org,80+,0,1,Economy
+C00577,33,Female,Leah Taylor DVM,"<25,000",Hyderabad,Yes,High,williamsangela@example.org,30-39,1,1,Economy
+C00578,37,Male,Joseph Martinez,"75,000-99,999",Kolkata,Yes,Medium,mooresharon@example.net,30-39,1,4,Premium Medium
+C00579,68,Female,Richard Mcdaniel,"50,000-74,999",Jaipur,No,High,walkerjanice@example.org,60-69,0,3,Middle Class
+C00580,61,Female,Stephen Curry,"100,000+",Hyderabad,No,Low,jordan95@example.org,60-69,0,5,Premium Low
+C00581,67,Female,Christopher Wyatt,"50,000-74,999",Kolkata,Yes,Low,colleen37@example.net,60-69,1,3,Middle Class
+C00582,79,Male,Madison Evans,"25,000-49,999",Ahmedabad,No,Low,hmartinez@example.org,70-79,0,2,Economy
+C00583,82,Male,Lindsey Cook,"100,000+",Mumbai,Yes,High,jeffrey66@example.com,80+,1,5,Premium High
+C00584,56,Female,Valerie Gutierrez,"50,000-74,999",Surat,No,High,laura35@example.org,50-59,0,3,Middle Class
+C00585,61,Male,Linda White,"50,000-74,999",Delhi,Yes,High,scottkenneth@example.com,60-69,1,3,Middle Class
+C00586,83,Male,Andrea Cook,"25,000-49,999",Jaipur,No,High,omcguire@example.org,80+,0,2,Economy
+C00587,27,Male,Lisa Adams,"75,000-99,999",Ahmedabad,No,High,wilsonjoseph@example.org,20-29,0,4,Premium High
+C00588,82,Male,Gregory Hill,"25,000-49,999",Kolkata,Yes,High,olivia99@example.com,80+,1,2,Economy
+C00589,79,Female,Ray Galvan,"100,000+",Mumbai,No,High,christinemiller@example.com,70-79,0,5,Premium High
+C00590,72,Male,Elizabeth Johnson,"25,000-49,999",Hyderabad,No,Medium,andrea19@example.com,70-79,0,2,Economy
+C00591,29,Male,Martha Young,"100,000+",Hyderabad,Yes,High,francis43@example.com,20-29,1,5,Premium High
+C00592,36,Female,Kenneth Reed,"<25,000",Delhi,No,Low,jerryjohnson@example.net,30-39,0,1,Economy
+C00593,69,Male,Robert Young,"25,000-49,999",Chennai,No,Low,grantjohnson@example.net,60-69,0,2,Economy
+C00594,69,Female,Mrs. Tiffany Curry DVM,"100,000+",Chennai,No,Low,mmay@example.com,60-69,0,5,Premium Low
+C00595,46,Female,William Baldwin,"25,000-49,999",Delhi,No,High,gdominguez@example.net,40-49,0,2,Economy
+C00596,28,Male,Brian Collins MD,"100,000+",Chennai,No,Medium,brownkelli@example.net,20-29,0,5,Premium Medium
+C00597,70,Male,Thomas Torres,"<25,000",Bangalore,No,Low,sheila98@example.org,70-79,0,1,Economy
+C00598,28,Male,Jennifer Walters,"100,000+",Mumbai,No,Medium,wrightstacey@example.com,20-29,0,5,Premium Medium
+C00599,60,Male,Jay Rodriguez PhD,"<25,000",Lucknow,No,Medium,tbarker@example.org,60-69,0,1,Economy
+C00600,53,Male,Dr. Jonathan Campbell,"50,000-74,999",Kanpur,Yes,High,bmay@example.org,50-59,1,3,Middle Class
+C00601,84,Female,Jesse Morales,"<25,000",Delhi,No,High,tsuarez@example.com,80+,0,1,Economy
+C00602,33,Male,Russell Keith,"25,000-49,999",Ahmedabad,No,Low,sarahliu@example.net,30-39,0,2,Economy
+C00603,47,Male,Jose Smith,"50,000-74,999",Jaipur,No,High,denniscolin@example.net,40-49,0,3,Middle Class
+C00604,44,Female,Richard Wong,"100,000+",Kanpur,Yes,Medium,nvargas@example.org,40-49,1,5,Premium Medium
+C00605,33,Male,Gary Hall,"<25,000",Ahmedabad,Yes,Medium,ryan04@example.com,30-39,1,1,Economy
+C00606,44,Male,Mrs. Heidi Harris,"75,000-99,999",Surat,Yes,Medium,atucker@example.com,40-49,1,4,Premium Medium
+C00607,62,Female,Heather Compton,"<25,000",Kanpur,Yes,Medium,npugh@example.net,60-69,1,1,Economy
+C00608,27,Male,David Butler,"25,000-49,999",Delhi,Yes,High,stevenclark@example.org,20-29,1,2,Economy
+C00609,54,Male,Thomas Trevino,"25,000-49,999",Ahmedabad,Yes,Low,johnstonsteven@example.net,50-59,1,2,Economy
+C00610,55,Female,Linda Keller,"50,000-74,999",Delhi,No,High,vlove@example.com,50-59,0,3,Middle Class
+C00611,66,Male,Shannon Mccarthy,"100,000+",Lucknow,Yes,High,bridget02@example.net,60-69,1,5,Premium High
+C00612,47,Male,Richard Levy,"75,000-99,999",Kolkata,Yes,High,collin36@example.org,40-49,1,4,Premium High
+C00613,35,Female,Joseph Silva,"50,000-74,999",Bangalore,Yes,High,michael52@example.net,30-39,1,3,Middle Class
+C00614,44,Male,Amy Schneider,"75,000-99,999",Bangalore,No,High,stephanie03@example.org,40-49,0,4,Premium High
+C00615,24,Male,Zachary Ward,"25,000-49,999",Hyderabad,No,Low,jfoster@example.org,20-29,0,2,Economy
+C00616,58,Female,Janice Anderson,"25,000-49,999",Chennai,Yes,Medium,trobertson@example.org,50-59,1,2,Economy
+C00617,64,Male,Ashley Fuentes,"75,000-99,999",Hyderabad,Yes,High,markholt@example.org,60-69,1,4,Premium High
+C00618,33,Male,Nicholas Beltran,"100,000+",Ahmedabad,Yes,Low,kimberlymclaughlin@example.com,30-39,1,5,Premium Low
+C00619,42,Male,Theresa Charles,"50,000-74,999",Mumbai,No,Medium,craigjames@example.org,40-49,0,3,Middle Class
+C00620,29,Male,Calvin Buchanan,"75,000-99,999",Bangalore,No,Low,waynecarter@example.net,20-29,0,4,Premium Low
+C00621,59,Male,Johnny Houston,"100,000+",Jaipur,No,Medium,cestes@example.org,50-59,0,5,Premium Medium
+C00622,61,Male,Angela Rios,"100,000+",Kolkata,No,Low,garrettjohn@example.org,60-69,0,5,Premium Low
+C00623,64,Female,Michael Woodward,"<25,000",Lucknow,Yes,Medium,jacklambert@example.net,60-69,1,1,Economy
+C00624,52,Male,Raymond Frank,"<25,000",Bangalore,No,Medium,michael72@example.net,50-59,0,1,Economy
+C00625,23,Male,Karina Vance,"100,000+",Kanpur,No,Low,kleinryan@example.org,20-29,0,5,Premium Low
+C00626,37,Female,Wanda Romero,"100,000+",Kolkata,No,High,emily41@example.org,30-39,0,5,Premium High
+C00627,42,Male,Cheryl Jackson,"<25,000",Surat,Yes,High,alisha86@example.com,40-49,1,1,Economy
+C00628,49,Female,Stephanie Neal,"75,000-99,999",Mumbai,Yes,Medium,jerrystevenson@example.com,40-49,1,4,Premium Medium
+C00629,48,Male,Amy May,"75,000-99,999",Pune,No,High,orozcojacob@example.net,40-49,0,4,Premium High
+C00630,29,Female,Nathan Fernandez,"<25,000",Kanpur,Yes,High,monicawilkerson@example.net,20-29,1,1,Economy
+C00631,67,Male,Frank Graves,"75,000-99,999",Chennai,Yes,Low,lisa10@example.org,60-69,1,4,Premium Low
+C00632,78,Female,Eric Lawson,"25,000-49,999",Kolkata,No,Low,zdaniels@example.net,70-79,0,2,Economy
+C00633,72,Female,Mark Duncan,"100,000+",Kolkata,No,Low,colliererin@example.net,70-79,0,5,Premium Low
+C00634,74,Female,Kenneth Kim,"100,000+",Pune,No,High,cgarcia@example.org,70-79,0,5,Premium High
+C00635,80,Male,Gary Watkins,"100,000+",Lucknow,Yes,Low,brandonmontoya@example.org,80+,1,5,Premium Low
+C00636,67,Male,Christopher Lawson,"25,000-49,999",Hyderabad,Yes,High,batessandra@example.net,60-69,1,2,Economy
+C00637,32,Male,Melissa Mann,"100,000+",Kanpur,No,Low,monique01@example.net,30-39,0,5,Premium Low
+C00638,22,Male,Tiffany Hughes,"75,000-99,999",Mumbai,Yes,Low,pzimmerman@example.com,20-29,1,4,Premium Low
+C00639,21,Male,Jeffrey Clements,"<25,000",Lucknow,No,Medium,cindy50@example.com,20-29,0,1,Economy
+C00640,66,Male,Christopher Mcbride,"75,000-99,999",Surat,Yes,High,lisa24@example.org,60-69,1,4,Premium High
+C00641,25,Female,Connie Owens,"<25,000",Lucknow,No,Medium,fdavis@example.net,20-29,0,1,Economy
+C00642,65,Male,Kristine Gonzalez,"<25,000",Kanpur,Yes,High,michaelramirez@example.org,60-69,1,1,Economy
+C00643,28,Female,Noah Davis,"25,000-49,999",Lucknow,Yes,High,justinporter@example.com,20-29,1,2,Economy
+C00644,33,Male,Ian Baker,"50,000-74,999",Chennai,Yes,High,rogersashley@example.net,30-39,1,3,Middle Class
+C00645,73,Male,Taylor Singleton,"25,000-49,999",Ahmedabad,No,Medium,smithjenna@example.org,70-79,0,2,Economy
+C00646,31,Male,Jeremy Roberts,"75,000-99,999",Bangalore,No,High,arocha@example.org,30-39,0,4,Premium High
+C00647,58,Male,Patricia Conner,"25,000-49,999",Mumbai,No,Medium,hrose@example.net,50-59,0,2,Economy
+C00648,61,Male,Matthew Lewis,"75,000-99,999",Delhi,Yes,Low,cunninghamjoanne@example.org,60-69,1,4,Premium Low
+C00649,78,Male,Renee Rivera,"100,000+",Pune,No,Medium,watersdavid@example.net,70-79,0,5,Premium Medium
+C00650,77,Male,Tyrone Jenkins,"50,000-74,999",Mumbai,Yes,High,ymcfarland@example.net,70-79,1,3,Middle Class
+C00651,62,Female,Christopher Jackson,"25,000-49,999",Lucknow,Yes,Medium,vincent39@example.com,60-69,1,2,Economy
+C00652,60,Male,Jimmy Walter,"100,000+",Hyderabad,Yes,Medium,bcunningham@example.net,60-69,1,5,Premium Medium
+C00653,31,Male,Elizabeth Duncan,"50,000-74,999",Pune,Yes,Low,bgibson@example.com,30-39,1,3,Middle Class
+C00654,29,Female,Stacey Lee,"100,000+",Kanpur,Yes,High,powellcody@example.org,20-29,1,5,Premium High
+C00655,26,Female,Leslie Fisher,"50,000-74,999",Hyderabad,Yes,Low,andersonamy@example.net,20-29,1,3,Middle Class
+C00656,31,Male,Kathleen Jones,"75,000-99,999",Kolkata,No,Low,kristinahall@example.net,30-39,0,4,Premium Low
+C00657,61,Female,Theresa Brown,"75,000-99,999",Bangalore,Yes,Low,williamjohnson@example.net,60-69,1,4,Premium Low
+C00658,28,Female,Nathan Crawford,"50,000-74,999",Hyderabad,No,Medium,robertdavis@example.org,20-29,0,3,Middle Class
+C00659,41,Male,David Booth,"<25,000",Ahmedabad,No,High,jamesharris@example.com,40-49,0,1,Economy
+C00660,78,Female,Michael Bowen,"75,000-99,999",Surat,No,Medium,angelavalentine@example.com,70-79,0,4,Premium Medium
+C00661,61,Male,Trevor English,"100,000+",Lucknow,Yes,High,kayla12@example.com,60-69,1,5,Premium High
+C00662,35,Female,Michelle Parker,"50,000-74,999",Delhi,Yes,Medium,seth55@example.com,30-39,1,3,Middle Class
+C00663,36,Male,Candice Yang,"100,000+",Delhi,No,High,tjohnson@example.com,30-39,0,5,Premium High
+C00664,52,Male,Brittney Hart,"<25,000",Mumbai,Yes,Low,tammy03@example.com,50-59,1,1,Economy
+C00665,67,Female,Frank Jones,"75,000-99,999",Chennai,Yes,High,michaellittle@example.com,60-69,1,4,Premium High
+C00666,52,Female,Gregory Bailey,"50,000-74,999",Bangalore,Yes,High,timothylara@example.net,50-59,1,3,Middle Class
+C00667,35,Male,Sarah Crawford,"75,000-99,999",Jaipur,No,High,paulmcdaniel@example.org,30-39,0,4,Premium High
+C00668,45,Male,Kari Torres,"50,000-74,999",Bangalore,Yes,Low,hendersongrace@example.org,40-49,1,3,Middle Class
+C00669,75,Female,Lori Reed,"<25,000",Bangalore,No,Low,rangelstacey@example.com,70-79,0,1,Economy
+C00670,71,Female,Christy Larsen,"100,000+",Jaipur,No,Low,dburke@example.net,70-79,0,5,Premium Low
+C00671,34,Male,Stephanie Day,"75,000-99,999",Ahmedabad,Yes,High,randy54@example.org,30-39,1,4,Premium High
+C00672,76,Male,Rachel Johnson,"100,000+",Hyderabad,No,Medium,thomasnunez@example.net,70-79,0,5,Premium Medium
+C00673,27,Female,Edward Martin,"100,000+",Pune,Yes,Medium,cassiemcgee@example.org,20-29,1,5,Premium Medium
+C00674,72,Female,Adam Reyes,"25,000-49,999",Mumbai,No,High,william24@example.com,70-79,0,2,Economy
+C00675,32,Male,Christina Maldonado,"50,000-74,999",Kanpur,No,High,kayla51@example.org,30-39,0,3,Middle Class
+C00676,82,Male,Russell Jackson II,"50,000-74,999",Surat,No,Medium,michaelmcclain@example.org,80+,0,3,Middle Class
+C00677,54,Female,Victoria White,"100,000+",Chennai,Yes,Low,churchbradley@example.com,50-59,1,5,Premium Low
+C00678,64,Male,Timothy Patel,"100,000+",Pune,Yes,Low,sarahbrooks@example.net,60-69,1,5,Premium Low
+C00679,27,Female,Evan Freeman,"75,000-99,999",Pune,No,Medium,timothy66@example.com,20-29,0,4,Premium Medium
+C00680,49,Female,Daisy Taylor,"50,000-74,999",Pune,Yes,High,kevinchen@example.com,40-49,1,3,Middle Class

@@ -1,0 +1,691 @@
+SELECT 
+    COUNT(*) AS Total_Customers,
+    AVG(Age) AS Average_Age,
+    MIN(Age) AS Min_Age,
+    MAX(Age) AS Max_Age
+FROM customers;
+
+SELECT
+    Income_Level,
+    COUNT(*) AS Count,
+    AVG(Age) AS Average_Age
+FROM customers
+GROUP BY Income_Level;
+-----------
+SELECT 
+    COUNT(*) AS Total_Products,
+    AVG(Cost_Price) AS Average_Cost_Price,
+    MIN(Cost_Price) AS Min_Cost_Price,
+    MAX(Cost_Price) AS Max_Cost_Price,
+    AVG(Retail_Price) AS Average_Retail_Price,
+    MIN(Retail_Price) AS Min_Retail_Price,
+    MAX(Retail_Price) AS Max_Retail_Price
+FROM products_data;
+
+SELECT
+    Category,
+    COUNT(*) AS Product_Count,
+    AVG(Retail_Price) AS Average_Retail_Price
+FROM products_data
+GROUP BY Category;
+--------------
+SELECT 
+    COUNT(*) AS Total_Stores,
+    Store_Size,
+    COUNT(*) AS Store_Count
+FROM store_details
+GROUP BY Store_Size;
+
+SELECT
+    Store_Location,
+    COUNT(*) AS Store_Count
+FROM store_details
+GROUP BY Store_Location;
+
+-----------
+
+
+1..Retrieve the list of all customers with their respective income levels.
+
+SELECT 
+    customer_id,
+    name,
+    income_level
+ FROM 
+    customers;
+
+----
+2..  Find the total number of transactions recorded for each store.
+SELECT 
+    store_id,
+    COUNT(*) as total_transactions
+ FROM
+    retail_sales_data
+  GROUP BY	
+    store_id;
+--------
+
+--3. List all products along with their category and subcategory.
+
+SELECT 
+    product_id,
+    product_name,
+    category,
+    subcategory
+ FROM
+     products_data;
+
+--4. Retrieve all sales transactions that occurred in 2021.
+
+SELECT 
+    *
+FROM 
+    retail_sales_data
+WHERE 
+    YEAR(Date) = 2021;
+
+----------
+ 
+-- Find the top 5 most expensive products based on retail price.
+
+SELECT 
+    Product_ID, 
+    Product_Name, 
+    Retail_Price
+FROM 
+    products_data
+ORDER BY 
+    Retail_Price DESC
+LIMIT 5;
+
+--------------
+-- Display all stores along with their store manager names and locations.
+
+SELECT 
+    Store_ID, 
+    Store_Manager, 
+    Store_Location
+FROM 
+    store_details;
+
+---------------------
+
+-- Count the number of unique customers who made purchases in 2022.
+
+SELECT 
+    COUNT(DISTINCT Customer_ID) AS Unique_Customers_2022
+FROM 
+    retail_sales_data
+WHERE 
+    YEAR(Date) = 2022;
+
+
+-------
+
+-- Retrieve the total sales for each product category.
+
+
+SELECT 
+    p.Category, 
+    SUM(r.Total_Sales) AS Total_Sales
+FROM 
+    retail_sales_data r
+JOIN 
+    products_data p ON r.Product_ID = p.Product_ID
+GROUP BY 
+    p.Category;
+
+-----------------
+
+-- List all transactions that involved a discount.
+
+SELECT 
+    *
+FROM 
+    retail_sales_data
+WHERE 
+    Discount > 0;
+
+------
+
+-- Find all customers who are part of the loyalty program.
+
+SELECT 
+    Customer_ID, 
+    Name, 
+    Location, 
+    Loyalty_Program
+FROM 
+    customers
+WHERE 
+    Loyalty_Program = 'Yes';
+
+------------------------------------------------------------------------------------------------
+## Intermediate Questions
+--------------------------------------------------------------------------------------------
+1. Find the total sales amount for each store for the year 2021.
+
+SELECT 
+  s.Store_Location, 
+  d.Year,SUM(rs.Total_Sales) as total_sales
+from  
+  retail_sales_data rs
+JOIN store_details s on rs.Store_ID = s.Store_ID
+JOIN date d on rs.Date = d.Date
+WHERE d.Year = 2021
+GROUP by s.Store_Location,d.Year
+ORDER by total_sales desc;
+
+---
+
+2. List the top 10 customers based on their total purchase amount.
+
+SELECT 
+    Customer_ID, 
+    SUM(Total_Sales) AS Total_Purchase_Amount
+FROM 
+    retail_sales_data
+GROUP BY 
+    Customer_ID
+ORDER BY 
+    Total_Purchase_Amount DESC
+LIMIT 10;
+
+
+3. Retrieve the sales target and actual sales for each store and month in 2020.
+
+SELECT 
+    st.Store_ID, 
+    st.Year, 
+    st.Month, 
+    SUM(rs.Total_Sales) AS Actual_Sales,
+    st.Sales_Target_Amount
+FROM 
+    sales_targets st
+LEFT JOIN 
+    retail_sales_data rs 
+    ON st.Store_ID = rs.Store_ID 
+    AND st.Year = YEAR(rs.Date) 
+    AND st.Month = MONTH(rs.Date)
+WHERE 
+    st.Year = 2020
+GROUP BY 
+    st.Store_ID, 
+    st.Year, 
+    st.Month, 
+    st.Sales_Target_Amount
+ORDER BY 
+    st.Store_ID, 
+    st.Month;
+--------
+
+4. Find the average purchase frequency for customers by income level.
+
+SELECT 
+    Income_Level, 
+    AVG(CASE 
+        WHEN Purchase_Frequency = 'Low' THEN 1
+        WHEN Purchase_Frequency = 'Medium' THEN 2
+        WHEN Purchase_Frequency = 'High' THEN 3
+        ELSE NULL
+    END) AS Average_Purchase_Frequency
+FROM 
+    customers
+GROUP BY 
+    Income_Level;
+
+-----------
+5. List the top 5 products by total sales amount in 2021.
+
+SELECT 
+    p.Product_ID, 
+    p.Product_Name, 
+    SUM(r.Total_Sales) AS Total_Sales_Amount
+FROM 
+    retail_sales_data r
+JOIN 
+    products_data p ON r.Product_ID = p.Product_ID
+WHERE 
+    YEAR(r.Date) = 2021
+GROUP BY 
+    p.Product_ID, 
+    p.Product_Name
+ORDER BY 
+    Total_Sales_Amount DESC
+LIMIT 5;
+
+---------------
+6. Retrieve the total sales amount for each day of the week.
+
+SELECT 
+    DAYNAME(Date) AS Day_of_Week, 
+    SUM(Total_Sales) AS Total_Sales_Amount
+FROM 
+    retail_sales_data
+GROUP BY 
+    DAYNAME(Date)
+ORDER BY 
+    FIELD(DAYNAME(Date), 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
+
+--------------------
+7. Identify the store that achieved the highest sales target in 2020.
+
+SELECT 
+    Store_ID, 
+    MAX(Sales_Target_Amount) AS Highest_Sales_Target
+FROM 
+    sales_targets
+WHERE 
+    Year = 2020
+GROUP BY 
+    Store_ID
+ORDER BY 
+    Highest_Sales_Target DESC
+LIMIT 1;
+
+---------
+8. Calculate the average discount given per transaction in 2022.
+
+SELECT 
+    AVG(Discount) AS Average_Discount_Per_Transaction
+FROM 
+    retail_sales_data
+WHERE 
+    YEAR(Date) = 2022;
+
+-----------
+
+9. Find the most popular payment method used by customers.
+
+SELECT 
+    Payment_Method, 
+    COUNT(*) AS Usage_Count
+FROM 
+    retail_sales_data
+GROUP BY 
+    Payment_Method
+ORDER BY 
+    Usage_Count DESC
+LIMIT 1;
+
+------------
+
+10. List the total sales and sales targets for each quarter of 2021.
+
+SELECT 
+    st.Store_ID, 
+    st.Quarter, 
+    SUM(rs.Total_Sales) AS Total_Sales_2021,
+    SUM(st.Sales_Target_Amount) AS Total_Sales_Target_2021
+FROM 
+    sales_targets st
+LEFT JOIN 
+    retail_sales_data rs ON st.Store_ID = rs.Store_ID 
+                         AND st.Year = YEAR(rs.Date)
+                         AND st.Quarter = QUARTER(rs.Date)
+WHERE 
+    st.Year = 2021
+GROUP BY 
+    st.Store_ID, 
+    st.Quarter
+ORDER BY 
+    st.Store_ID, 
+    st.Quarter;
+
+--------------------------------------------------------------------------------------
+## Advanced Questions
+------------------------------------------------
+1. Calculate the year-over-year growth in total sales for each store.
+
+WITH SalesByYear AS (
+    SELECT 
+        Store_ID, 
+        YEAR(Date) AS Sales_Year, 
+        SUM(Total_Sales) AS Total_Sales
+    FROM 
+        retail_sales_data
+    GROUP BY 
+        Store_ID, 
+        YEAR(Date)
+),
+SalesGrowth AS (
+    SELECT 
+        s1.Store_ID,
+        s1.Sales_Year AS Current_Year,
+        s1.Total_Sales AS Current_Year_Sales,
+        s2.Total_Sales AS Previous_Year_Sales,
+        ((s1.Total_Sales - s2.Total_Sales) / s2.Total_Sales) * 100 AS YoY_Growth_Percentage
+    FROM 
+        SalesByYear s1
+    LEFT JOIN 
+        SalesByYear s2 ON s1.Store_ID = s2.Store_ID 
+                      AND s1.Sales_Year = s2.Sales_Year + 1
+)
+SELECT 
+    Store_ID,
+    Current_Year,
+    YoY_Growth_Percentage
+FROM 
+    SalesGrowth
+WHERE 
+    Previous_Year_Sales IS NOT NULL
+ORDER BY 
+    Store_ID, 
+    Current_Year;
+
+--------------
+
+2. Find the customers who have made purchases in more than one store.
+
+SELECT 
+    Customer_ID, 
+    COUNT(DISTINCT Store_ID) AS Number_Of_Stores
+FROM 
+    retail_sales_data
+GROUP BY 
+    Customer_ID
+HAVING 
+    COUNT(DISTINCT Store_ID) > 1;
+
+
+-------------------
+3. Identify the products that have never been sold at a discount.
+
+SELECT 
+    p.Product_ID, 
+    p.Product_Name
+FROM 
+    products_data p
+LEFT JOIN 
+    retail_sales_data r ON p.Product_ID = r.Product_ID
+GROUP BY 
+    p.Product_ID, 
+    p.Product_Name
+HAVING 
+    SUM(r.Discount) = 0 OR SUM(r.Discount) IS NULL;
+
+------------------
+4. Calculate the percentage of total sales that occurred on weekends.
+
+SELECT 
+    (SUM(CASE WHEN DAYOFWEEK(Date) IN (1, 7) THEN Total_Sales ELSE 0 END) / SUM(Total_Sales)) * 100 AS Weekend_Sales_Percentage
+FROM 
+    retail_sales_data;
+
+--------------
+5. Find the store that has the highest average transaction value.
+
+SELECT 
+    Store_ID, 
+    AVG(Total_Sales) AS Average_Transaction_Value
+FROM 
+    retail_sales_data
+GROUP BY 
+    Store_ID
+ORDER BY 
+    Average_Transaction_Value DESC
+LIMIT 1;
+
+----------
+6. Retrieve the list of customers who have purchased products from every category.
+
+WITH CustomerCategories AS (
+    SELECT 
+        r.Customer_ID, 
+        p.Category
+    FROM 
+        retail_sales_data r
+    JOIN 
+        products_data p ON r.Product_ID = p.Product_ID
+    GROUP BY 
+        r.Customer_ID, 
+        p.Category
+),
+TotalCategories AS (
+    SELECT 
+        COUNT(DISTINCT Category) AS Total_Categories
+    FROM 
+        products_data
+),
+CustomerCategoryCount AS (
+    SELECT 
+        Customer_ID, 
+        COUNT(DISTINCT Category) AS Categories_Purchased
+    FROM 
+        CustomerCategories
+    GROUP BY 
+        Customer_ID
+)
+SELECT 
+    c.Customer_ID
+FROM 
+    CustomerCategoryCount c
+JOIN 
+    TotalCategories t ON c.Categories_Purchased = t.Total_Categories;
+
+-----------
+
+7. Identify the month with the highest sales for each store in 2021.
+
+WITH MonthlySales AS (
+    SELECT 
+        Store_ID, 
+        MONTH(Date) AS Month, 
+        SUM(Total_Sales) AS Total_Sales
+    FROM 
+        retail_sales_data
+    WHERE 
+        YEAR(Date) = 2021
+    GROUP BY 
+        Store_ID, 
+        MONTH(Date)
+),
+MaxMonthlySales AS (
+    SELECT 
+        Store_ID, 
+        MAX(Total_Sales) AS Max_Sales
+    FROM 
+        MonthlySales
+    GROUP BY 
+        Store_ID
+)
+SELECT 
+    m.Store_ID, 
+    m.Month, 
+    m.Total_Sales AS Max_Sales
+FROM 
+    MonthlySales m
+JOIN 
+    MaxMonthlySales mx ON m.Store_ID = mx.Store_ID AND m.Total_Sales = mx.Max_Sales
+ORDER BY 
+    m.Store_ID;
+
+-------------
+8. Calculate the cumulative sales for each product category over time.
+
+SELECT 
+    p.Category, 
+    r.Date, 
+    SUM(r.Total_Sales) OVER (PARTITION BY p.Category ORDER BY r.Date) AS Cumulative_Sales
+FROM 
+    retail_sales_data r
+JOIN 
+    products_data p ON r.Product_ID = p.Product_ID
+ORDER BY 
+    p.Category, 
+    r.Date;
+
+----------------
+9. Find the most frequently purchased product in each store.
+
+WITH StoreProductSales AS (
+    SELECT 
+        Store_ID, 
+        Product_ID, 
+        SUM(Quantity_Sold) AS Total_Quantity_Sold
+    FROM 
+        retail_sales_data
+    GROUP BY 
+        Store_ID, 
+        Product_ID
+),
+MaxProductSales AS (
+    SELECT 
+        Store_ID, 
+        MAX(Total_Quantity_Sold) AS Max_Quantity_Sold
+    FROM 
+        StoreProductSales
+    GROUP BY 
+        Store_ID
+)
+SELECT 
+    s.Store_ID, 
+    s.Product_ID, 
+    s.Total_Quantity_Sold AS Max_Quantity_Sold
+FROM 
+    StoreProductSales s
+JOIN 
+    MaxProductSales m ON s.Store_ID = m.Store_ID AND s.Total_Quantity_Sold = m.Max_Quantity_Sold
+ORDER BY 
+    s.Store_ID;
+
+---------
+10. Identify the customers who have not made a purchase in the last 6 months.
+
+SELECT 
+    Customer_ID
+FROM 
+    retail_sales_data
+GROUP BY 
+    Customer_ID
+HAVING 
+    MAX(Date) < CURDATE() - INTERVAL 6 MONTH;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
