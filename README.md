@@ -4,7 +4,7 @@
 
 # Project Title
 
-![Dashboard Preview](images/A futuristic retail named 'Brundavan Retail Stores'.webp)
+![Dashboard Preview]()
 
 ## Power BI Report
 You can view the interactive Power BI report by clicking the link below:
